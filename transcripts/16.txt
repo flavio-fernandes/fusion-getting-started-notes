@@ -1,0 +1,602 @@
+0:00
+In this video, the 16th in the getting
+0:02
+started series, we will learn about
+0:05
+configurations and learn some additional
+0:07
+functionality such as adding aspects,
+0:12
+parameters,
+0:13
+appearance themes, and associivity.
+0:18
+Fusion enables the creation of
+0:21
+configurable designs, offering control
+0:23
+over parameters and features through a
+0:26
+table.
+0:27
+This functionality is incredibly
+0:29
+powerful for generating design
+0:31
+variations without the need for
+0:33
+individual remodeling.
+0:37
+If continuing from the last
+0:38
+manufacturing video, switch from the
+0:41
+manufacturing workspace to the design
+0:43
+workspace with the spool design.
+0:47
+Edit the first sketch in the timeline.
+0:51
+To make things easier to understand in
+0:54
+the configuration table, we are going to
+0:56
+name some of the dimensions in the
+0:58
+sketch.
+1:00
+Double click on the 37.5 diameter
+1:03
+dimension and type in OD equals 37.5.
+1:11
+Then double click on the 24 diameter
+1:14
+dimension and type in ID= 24.
+1:20
+Then click on finish sketch.
+1:23
+In the configure menu, click on the
+1:26
+configure icon.
+1:29
+This puts us into the configuration mode
+1:32
+and brings up the configuration table.
+1:35
+You will notice items in the timeline
+1:38
+are highlighted blue. These are all the
+1:40
+items that can be configured.
+1:43
+In the configuration table, click on the
+1:46
+add parameters or the FX button.
+1:52
+This will bring up the parameters table
+1:54
+where you can expand open the sketch one
+1:57
+under spool.
+1:59
+In the table you will see the OD and ID
+2:02
+parameters along with many other
+2:05
+dimensions.
+2:07
+Now you can see why we named them
+2:08
+earlier.
+2:10
+Click the check boxes next to OD and ID
+2:13
+in the parameters table and they will
+2:16
+get added to the configuration table.
+2:20
+Then press okay in the parameters table.
+2:24
+Refer to exhibit one.
+2:26
+Next, click on the whole feature in the
+2:29
+timeline.
+2:31
+A whole configuration dialogue will
+2:33
+appear.
+2:35
+Click on suppression and diameter in the
+2:38
+dialogue.
+2:40
+This will allow us to either turn the
+2:42
+holes on or off in the design or to
+2:45
+change their diameter.
+2:48
+Press okay and then click on the pattern
+2:51
+feature in the timeline and select the
+2:54
+quantity option and press okay.
+3:00
+Notice how the table is being built out
+3:02
+with all of the options we have
+3:04
+selected.
+3:06
+The whole diameter column can easily be
+3:08
+renamed by right-clicking on the column
+3:11
+and selecting rename column.
+3:15
+Change the name to whole diameter.
+3:20
+We can also rename the configuration to
+3:23
+original by right-clicking on the
+3:26
+configuration name and selecting rename.
+3:31
+Refer to exhibit two.
+3:34
+To add another configuration, click the
+3:38
+plus symbol.
+3:41
+All information will be copied into the
+3:43
+new configuration, and the blue bar next
+3:46
+to configuration 2 will indicate that
+3:48
+it's active.
+3:51
+Any changes made in the table will be
+3:53
+reflected in the 3D model.
+3:57
+In the table, change the OD to 38 and
+4:02
+the ID to 20.
+4:06
+Change the whole diameter to four
+4:09
+and the whole quantity to 18.
+4:14
+Notice how the 3D model updated with all
+4:16
+of these changes automatically.
+4:20
+Rename this configuration to light.
+4:26
+We can toggle between the two
+4:28
+configurations by doubleclicking on
+4:30
+their name in the configuration table.
+4:34
+To configure different materials for
+4:36
+appearance or mass properties,
+4:39
+right click on the top level spool in
+4:41
+the browser and select configure.
+4:46
+In the dialogue that appears, click on
+4:49
+physical material.
+4:52
+A physical material theme will be added
+4:54
+to the configuration table.
+4:59
+Rename theme one to aluminum and then
+5:03
+close the configuration table.
+5:07
+Refer to exhibit 3.
+5:11
+From the modify menu, select physical
+5:15
+material
+5:17
+and in the search field, enter steel.
+5:22
+In the results, scroll down until you
+5:25
+see steel.
+5:27
+Then drag steel onto the spool and close
+5:31
+the physical material dialogue.
+5:36
+Bring the configuration table back up
+5:38
+and click on the aluminum pulld down.
+5:41
+And notice steel is now part of the
+5:43
+list.
+5:45
+Click the plus icon to add a physical
+5:48
+material theme.
+5:52
+Rename the theme to steel and change the
+5:56
+pull down to steel.
+5:59
+Notice in the configuration table there
+6:02
+is now a physical material column.
+6:06
+Select the steel theme for the original
+6:08
+configuration and leave aluminum for the
+6:11
+light configuration.
+6:14
+Then close the table.
+6:17
+Refer to exhibit 4.
+6:20
+You can also select which configuration
+6:22
+you want by choosing the configuration
+6:25
+from the browser on the left.
+6:28
+Currently, we are looking at the
+6:30
+original configuration.
+6:33
+If we do a mass properties of the top
+6:35
+level, we can see that the material is
+6:39
+steel and that the mass is 90 g.
+6:46
+If we change the configuration to light
+6:49
+and do the mass properties again,
+6:52
+this time it shows the material as
+6:54
+aluminum and the mass is only 26 g.
+7:01
+Let's go ahead and save the spool.
+7:04
+You will notice a warning appears saying
+7:07
+that the spool will be saved as a
+7:09
+configured design.
+7:11
+Go ahead and press okay.
+7:17
+Open the fishing reel assembly from the
+7:19
+data panel.
+7:22
+After opening, it will notify you that
+7:24
+the spool is out of date.
+7:29
+Click on the update icon in the main
+7:31
+menu.
+7:34
+The spool in the browser is now called
+7:36
+original as that was the name of the
+7:38
+configuration and it is displaying the
+7:41
+original configuration in this fishing
+7:43
+reel assembly.
+7:46
+Right click on original in the browser
+7:49
+and select switch configuration
+7:52
+and it allows you to select which
+7:54
+configuration you want as part of the
+7:57
+assembly.
+7:59
+Select light from the configuration
+8:01
+dialogue and press okay.
+8:05
+Refer to exhibit 5.
+8:09
+You can also use configurations to show
+8:12
+different design styles. For example, we
+8:15
+want to show a left-handed and a
+8:17
+right-handed style of this fishing reel
+8:20
+assembly.
+8:22
+Start by creating a new component called
+8:25
+handle assembly
+8:28
+and drag the handle start handle grip
+8:32
+and fastener into that assembly.
+8:39
+Activate the top level assembly and then
+8:42
+right click on the handle assembly and
+8:44
+select move copy.
+8:48
+Click on the create copy checkbox in the
+8:51
+dialogue. Then move and rotate the
+8:54
+copied assembly to the other side of the
+8:56
+fishing reel and press okay.
+9:00
+Refer to exhibit six.
+9:05
+Turn off the first handle assembly.
+9:10
+Using rigid group, group the handle and
+9:13
+the end cap together.
+9:18
+Then use the joint command to create a
+9:21
+revolute joint between the handle and
+9:24
+the reel.
+9:32
+Now turn off the second handle assembly
+9:34
+and turn on the first.
+9:38
+Right click on the first handle assembly
+9:40
+and select configure.
+9:44
+Check the visibility option and press
+9:46
+okay.
+9:49
+Then right click on the second handle
+9:52
+assembly and select configure and check
+9:55
+its visibility option on. Also
+10:02
+start by renaming configuration one to
+10:06
+right-handed in the configuration table.
+10:10
+Next, add a new configuration using the
+10:13
+plus icon and label it left-handed.
+10:18
+For this left-handed setup, deactivate
+10:22
+the first handle assembly and activate
+10:24
+the second.
+10:26
+Finally, close the configuration table.
+10:31
+refer to exhibit 7
+10:38
+in the browser. Make sure that the
+10:40
+configuration is set to left-handed and
+10:42
+then save the assembly.
+10:45
+The warning message will appear again
+10:47
+notifying you that the assembly will be
+10:49
+saved as a configured assembly.
+10:53
+Switch back to the spool design by
+10:55
+clicking on the spool tab. We can see
+10:58
+that the configuration is the light
+11:00
+configuration that has the larger holes
+11:03
+and hole quantity and smaller spool
+11:06
+inner diameter.
+11:09
+Change from the design to the
+11:10
+manufacturer workspace.
+11:14
+Our setup with all of our tool paths are
+11:16
+listed, but they are all out of date due
+11:18
+to the changes made to the model.
+11:21
+Right click on setup and choose
+11:24
+generate.
+11:27
+All of the tool paths will regenerate.
+11:31
+The only change we need to make is to
+11:33
+change the drill from a 3mm drill to a
+11:36
+4mm drill.
+11:48
+Also notice because we referenced the
+11:51
+hole quantity parameter in the drill
+11:53
+pattern, the drill pattern is now
+11:56
+drilling 18 holes instead of 12.
+12:00
+Refer to exhibit 8.
+12:04
+Lastly, open the fishing reel assembly
+12:07
+drawing.
+12:09
+Notice in the drawing browser the top
+12:11
+level assembly is labeled right-handed
+12:14
+as that is what the first configuration
+12:16
+in the configuration table is.
+12:19
+Right click on right-handed and select
+12:22
+switch configuration
+12:24
+and it will allow you to change the
+12:26
+current sheet to the left-handed
+12:29
+configuration.
+12:31
+Notice the view updates and even the
+12:33
+parts table updates depending on what is
+12:36
+visible in the view.
+12:39
+Clicking on the second sheet in the
+12:41
+drawing set shows the top, front, right,
+12:44
+and isometric views of the whole
+12:46
+assembly.
+12:47
+Again, we can choose to have this sheet
+12:50
+display the left-handed configuration,
+12:52
+and the views will update.
+12:55
+Some of the existing dimensions get
+12:57
+removed as they were associated with
+13:00
+geometry that is no longer visible. So,
+13:03
+rerun the automatic dimension command to
+13:06
+recreate the missing overall dimensions.
+13:11
+And that brings us to the end of the
+13:13
+Autodesk Fusion getting started series.
+13:16
+Over the course of this journey, you've
+13:18
+gone from the fundamentals like creating
+13:20
+fully constrained sketches, building and
+13:23
+editing models, and working with a
+13:25
+timeline to tackling more advanced
+13:28
+challenges.
+13:30
+You designed a bale component,
+13:33
+explored constraints and extrude to
+13:35
+object, and even learned how to bring in
+13:38
+external models, position them, and
+13:41
+modify them with direct editing.
+13:44
+From there, you leveled up with powerful
+13:47
+tools like sweep, loft, and form, giving
+13:51
+you the ability to create complex
+13:53
+organic shapes like those in the fishing
+13:56
+reel assembly.
+13:58
+You assembled parts, inspected them for
+14:01
+issues, and generated professional
+14:03
+drawing sets, even tapping into Fusion's
+14:07
+built-in AI features to speed things up.
+14:11
+Then came the manufacturing workspace
+14:14
+where you added tool paths, simulated
+14:16
+machining, and saw how Fusion helps you
+14:19
+validate your design before cutting your
+14:22
+part.
+14:23
+And finally, you unlock the power of
+14:25
+configurations,
+14:27
+giving you the flexibility to explore
+14:29
+design variations and make latest stage
+14:32
+changes.
+14:34
+Knowing your drawings and tool paths
+14:36
+will update automatically.
+14:38
+But this is just the beginning. There's
+14:40
+a whole world of Fusion resources
+14:42
+waiting for you. Whether it's the
+14:44
+self-paced learning right inside of
+14:46
+Fusion or the active community on
+14:49
+YouTube, Instagram, Facebook, and more.
+14:54
+I hope that this series has left you
+14:56
+feeling confident, inspired, and ready
+14:58
+to take your designs further than ever
+15:01
+before. Now it's your turn. Go create,
+15:04
+explore, and see what Fusion can do for
+15:07
+you.

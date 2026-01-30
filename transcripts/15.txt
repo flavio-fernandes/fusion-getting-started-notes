@@ -1,0 +1,695 @@
+
+0:00
+In this video, the 15th in the getting
+0:03
+started series, we will learn about the
+0:05
+manufacturing workspace and learn some
+0:08
+additional functionality such as setups,
+0:12
+creating tool paths, simulation,
+0:16
+patterns, and post-processing.
+0:20
+The manufacturer workspace in Fusion
+0:22
+streamlines the process from a designed
+0:25
+model to a manufactured part. It enables
+0:28
+the creation of tool paths and
+0:30
+subsequent post-processing to generate
+0:33
+the necessary G-code for machine
+0:35
+operation.
+0:37
+Start by opening the spool individually.
+0:41
+Then switch to the manufacturer
+0:44
+workspace from the workspace menu.
+0:48
+It is broken down into milling, turning,
+0:51
+and additive subsections.
+0:53
+Our spool is going to require a few
+0:56
+different methods for manufacturing such
+0:59
+as turning and milling.
+1:02
+We will start by clicking on the turning
+1:04
+menu.
+1:05
+Verify that we are in millimeters for
+1:07
+our units.
+1:11
+The first step is to create a setup for
+1:13
+the machine to understand.
+1:16
+Click on new setup under the setup menu.
+1:21
+The first tab allows you to specify the
+1:24
+WCS or work coordinate system location
+1:28
+and direction.
+1:30
+We will leave the defaults for now. It
+1:33
+also shows the safe planes for the front
+1:36
+and the back for the chuck.
+1:40
+Click on the stock tab and change the
+1:42
+model position to offset from front and
+1:46
+change the offset distance to 1 mm.
+1:50
+This will move the part closer to the
+1:52
+front and require less material to be
+1:55
+removed during the following facing
+1:57
+operation.
+1:59
+Refer to exhibit one.
+2:02
+We will now create our initial tool
+2:04
+path, a facing operation.
+2:08
+From the turning menu, choose turning
+2:11
+face.
+2:12
+The dialogue box divided into five
+2:15
+distinct tabs will then appear.
+2:19
+The first tab is dedicated to tool
+2:21
+selection for cutting the tool path.
+2:25
+Click select next to tool to open the
+2:28
+tool dialogue.
+2:30
+In the library section, choose turning
+2:33
+tools metric to narrow the display to
+2:36
+only metric turning tools.
+2:39
+Finally, select the DVLNR tool from the
+2:43
+list.
+2:48
+After defining the tool, a tool path is
+2:51
+automatically generated.
+2:55
+The various tabs allow you to review the
+2:57
+geometry,
+2:59
+retract clearances,
+3:02
+number of passes,
+3:05
+stock to leave,
+3:07
+and leads and transitions.
+3:10
+For instance, deselecting the leadin
+3:13
+entry option will update the tool path
+3:16
+to exclude the 45 degree leadin.
+3:21
+Reenable the leadin option. Then click
+3:24
+okay to confirm the facing tool path. To
+3:28
+verify the tool path, click on simulate
+3:31
+with machine.
+3:33
+Click on the play button to see what the
+3:36
+machine would do to cut the facing tool
+3:38
+path.
+3:40
+If it plays too quickly, you can drag
+3:42
+the speed slider to slow down or speed
+3:45
+up the playback.
+3:47
+Change the colorization to comparison to
+3:51
+see blue material as stock and green
+3:54
+material as machined faces.
+3:57
+Then exit the simulation.
+4:00
+Now we want to cut the main profile
+4:02
+shape of the spool with a roughing
+4:04
+strategy and then follow that with a
+4:06
+finishing strategy.
+4:09
+Select profile roughing from the turning
+4:12
+menu.
+4:14
+Under the passes tab, notice the option
+4:17
+for stock to leave is turned on.
+4:21
+This option will remove a majority of
+4:23
+the material, but leave a small amount
+4:26
+to get removed during the finishing
+4:28
+process.
+4:29
+We'll leave everything default and press
+4:31
+okay.
+4:34
+The tool path is created, but notice
+4:36
+that it can't cut under the top portion
+4:38
+of the spool.
+4:40
+Refer to exhibit two.
+4:43
+It is recommended to run a simulation
+4:45
+after creating a tool path to visualize
+4:48
+what it is doing.
+4:50
+As we can see during this simulation, it
+4:53
+is cutting the small grooves which we
+4:55
+would rather have cut during the
+4:57
+finishing process.
+4:59
+Right click on the roughing tool path in
+5:01
+the browser and select edit.
+5:04
+In the geometry tab, activate groove
+5:08
+suppression and then select the six
+5:11
+faces of the small grooves and press
+5:14
+okay.
+5:16
+Simulate again and notice that the
+5:19
+grooves are no longer cut.
+5:22
+Refer to exhibit three.
+5:26
+We need to remove the small area below
+5:28
+the top of the spool. And we have
+5:31
+already spent some time setting
+5:32
+everything up in the first roughing tool
+5:34
+path. So, let's duplicate it so we can
+5:37
+reuse all of the existing settings and
+5:40
+just change a few settings.
+5:43
+Right click on the tool path in the
+5:44
+browser and select duplicate.
+5:49
+Edit the new tool path and click on
+5:51
+select next to tool.
+5:55
+Choose the DVLN Lf left-hand tool and
+5:59
+press okay.
+6:03
+Press okay for the tool path and notice
+6:05
+that it is cutting a lot of the same
+6:07
+area that has already been removed. This
+6:10
+is basically wasting time.
+6:13
+Edit the tool path again and under the
+6:16
+geometry tab, hover over the words rest
+6:20
+machining for the tool tip to appear.
+6:24
+Notice this option only cuts material
+6:26
+not removed by the previous operation.
+6:30
+Turn on rest machining and press okay.
+6:34
+The tool path updates and is now only
+6:36
+cutting the small area necessary.
+6:40
+Refer to exhibit 4.
+6:43
+With most of the material roughed out,
+6:45
+we can now concentrate on the finishing
+6:47
+passes.
+6:49
+We'll leverage the previously set up
+6:51
+tool paths to expedite this process.
+6:55
+Rightclick the first roughing tool path,
+6:58
+then choose create derived operation,
+7:02
+followed by turning, and finally turning
+7:06
+profile finishing.
+7:09
+This action copies existing settings
+7:12
+while adapting specific options for a
+7:14
+finishing profile.
+7:16
+For instance, upon editing the tool
+7:19
+path, you'll observe that stock to leave
+7:22
+have been disabled.
+7:25
+In the browser, you'll see a warning
+7:28
+icon on the tool path. Hover over it for
+7:31
+an explanation. The lead out was
+7:34
+modified to prevent gouging the stock,
+7:37
+resulting in a straight upward exit
+7:39
+instead of a 45° angle.
+7:43
+To avoid scraping the stock, uncheck
+7:46
+same as lead in and set the lead out
+7:49
+angle to 135°.
+7:55
+Refer to exhibit 5.
+7:58
+Repeat the create derived turning
+8:01
+profile finishing operation on the
+8:03
+second roughing tool path.
+8:07
+This time you will need to turn off the
+8:09
+groove suppression and then press okay.
+8:14
+run a simulate on the whole setup to
+8:17
+verify the tool paths are cutting the
+8:19
+way we expect.
+8:23
+Now let's focus on drilling the holes in
+8:26
+the spool body.
+8:28
+From the drilling menu, select drill.
+8:33
+Next to tool, click select and then
+8:36
+choose hole making tools metric from the
+8:40
+library. To begin, we'll use a spot
+8:43
+drill.
+8:45
+Filter the selection by clicking spot
+8:47
+drill under type.
+8:50
+Finally, select the 5 mm spot drill from
+8:53
+the list and press select.
+8:56
+Refer to exhibit six.
+9:00
+Click on the multiaxis tab and turn on
+9:03
+tool orientation.
+9:07
+Select the 3mm hole currently pointing
+9:10
+in the X direction of the view cube.
+9:14
+The Z-axis will reorient, but it's
+9:17
+pointed down instead of up.
+9:20
+Click on the flip Z-axis option. And now
+9:24
+Z should be pointing up.
+9:27
+refer to exhibit 7.
+9:30
+Now click on the geometry tab and select
+9:34
+the 3 mm hole on the Z-axis.
+9:38
+Click on the heights tab and a preview
+9:41
+will appear of the spot drill.
+9:45
+Change the bottom height to hole top and
+9:49
+then set the offset to minus 1 mm.
+9:53
+This will keep the spot drill from
+9:55
+drilling so deep.
+9:58
+If we wanted to use the spot drill to
+10:00
+chamer the edge of the hole, we could
+10:02
+set the offset to go deeper.
+10:06
+Since the holes are part of a pattern,
+10:08
+you can create a pattern for the drill
+10:11
+tool path.
+10:13
+To do this, rightclick the drill tool
+10:16
+path and choose add to new pattern.
+10:21
+Change the pattern type to circular
+10:23
+pattern
+10:24
+and then select the outside of the spool
+10:27
+as the axis.
+10:30
+Increase the number of instances from 2
+10:33
+to 12.
+10:36
+Ideally, you should link the pattern
+10:38
+quantity to the actual pattern
+10:40
+parameter.
+10:41
+To do this, switch from the manufacturer
+10:44
+workspace to the design workspace.
+10:48
+Then under the modify menu, select
+10:52
+change parameters.
+10:55
+In the parameters dialogue, expand spool
+10:59
+and then see pattern one. You'll see
+11:03
+count U with a D number in its name and
+11:07
+an expression of 12.
+11:11
+Double click the D number and rename it
+11:14
+to whole quantity
+11:16
+and then click okay.
+11:19
+Refer to exhibit 8.
+11:22
+Return to the manufacturer workspace and
+11:25
+modify the pattern in the browser.
+11:30
+Replace the current value of 12 for the
+11:33
+number of instances with whole quantity.
+11:38
+This will link it as a parameter,
+11:41
+allowing the pattern to automatically
+11:43
+update if you change the quantity of
+11:45
+holes in your design.
+11:48
+With the hole locations now marked, we
+11:51
+can proceed to drill them. To save setup
+11:54
+time, we will duplicate our existing
+11:56
+tool path.
+11:58
+Right click on the drill tool path and
+12:00
+select duplicate.
+12:03
+Then edit the new tool path and click
+12:07
+select next to tool.
+12:10
+From the library, choose hole making
+12:13
+tools metric.
+12:16
+We need a specific drill size. So expand
+12:19
+the diameter filter.
+12:22
+Type in three and press enter.
+12:25
+This will filter the tools to display
+12:28
+only those with a 3 mm diameter.
+12:32
+Finally, select the 3mm drill from the
+12:35
+filtered list.
+12:37
+On the heights tab, revert the bottom
+12:40
+height to whole bottom and set the
+12:43
+offset to 0 mm.
+12:46
+Enable drill tip through bottom and
+12:49
+specify a breakthrough depth of 1 millm
+12:53
+to ensure adequate chip clearing.
+12:57
+Simulate the pattern to verify the
+12:59
+result.
+13:08
+To further demonstrate the mill turn
+13:10
+capabilities, we'll perform a milling
+13:13
+operation to remove material from the
+13:15
+top of the spool.
+13:18
+Navigate to the milling tab and select
+13:20
+2D adaptive clearing.
+13:24
+Next to tool, click select. Then choose
+13:28
+milling tools metric
+13:31
+and set the type to bullnose endmill.
+13:35
+From the list, select the 5 mm diameter
+13:38
+bullnose.
+13:42
+First, navigate to the geometry tab.
+13:46
+From there, select face contours
+13:49
+and then click on both the large flat
+13:52
+face and the small fillet located on the
+13:55
+top of the spool.
+13:57
+Within the face contours dialogue box,
+14:00
+adjust the loops option to outer loops
+14:04
+and set the side to start inside.
+14:09
+These selections instruct Fusion to
+14:11
+identify the outermost profile of the
+14:14
+chosen faces and machine all of the
+14:17
+areas contained within that profile.
+14:20
+Finally, in the passes tab, disable
+14:24
+stock to leave.
+14:26
+Refer to exhibit 9.
+14:30
+Simulate the adaptive tool path and
+14:33
+notice the small blue area left in the
+14:35
+corner.
+14:36
+This is showing that the radius of the
+14:38
+bullnose endmill is larger than the
+14:41
+radius of our model and the tool can't
+14:43
+remove all of the material. We would
+14:46
+need to use a smaller radiused tool to
+14:49
+get into the corner.
+14:51
+It also makes sense to move the milling
+14:54
+operation to be earlier in the
+14:55
+manufacturing process as it could put
+14:58
+stress on the part as it's roughing out
+15:00
+the pocket.
+15:02
+You can reorder the tool paths just by
+15:04
+dragging them.
+15:08
+We'll verify by doing a simulation one
+15:10
+last time before we post out to the
+15:12
+machine.
+15:14
+Now, obviously, there are more tooling
+15:16
+operations that need to be done to fully
+15:18
+manufacture the spool, but this video is
+15:20
+just an introduction to the
+15:22
+manufacturing process inside of Fusion.
+15:26
+The simulation completes with no
+15:28
+verification errors. So, we are ready to
+15:31
+post the G-code.
+15:34
+From the action menu, click on post
+15:37
+process.
+15:39
+From the post pulld down, click on
+15:42
+choose from library and then click on
+15:45
+fusion library.
+15:49
+Here is where you can select the machine
+15:51
+that you will be using or upload a
+15:53
+custom post from a vendor.
+15:55
+In our example, we will be using a HOS
+15:58
+ST10 machine.
+16:02
+Filter the vendor to HOS automation and
+16:05
+then choose HOS ST10 from the list and
+16:09
+press select.
+16:12
+In the configuration section, enable got
+16:16
+live tooling to inform the post that a
+16:19
+milling spindle is being used.
+16:22
+All other post options should remain at
+16:24
+their default settings.
+16:26
+Finally, press post to generate the
+16:29
+G-code,
+16:31
+which will then be ready to be sent to
+16:33
+the machine.
+16:35
+Refer to exhibit 10.
+16:39
+Go ahead and save your model.
+16:43
+In the next video, we will learn about
+16:45
+configurations and how changing your
+16:47
+design will update your manufacturing
+16:49
+tool paths and drawings.

@@ -1,0 +1,365 @@
+
+0:02
+This video, the third in the getting
+0:04
+started series, will cover how to create
+0:06
+a sketch in Fusion.
+0:09
+Topics covered include creating a
+0:11
+component,
+0:13
+the line command, constraints,
+0:17
+adding dimensions,
+0:19
+and auto constrain.
+0:22
+In Fusion, it's always good practice to
+0:24
+create everything as components.
+0:27
+This helps with the organization of your
+0:29
+design and simplifies the timeline.
+0:32
+We will begin by making a component.
+0:36
+Navigate to the create menu and choose
+0:38
+new component.
+0:42
+In the dialogue box, enter spool as the
+0:45
+name and click okay.
+0:48
+The newly created spool component will
+0:51
+then appear in the structure browser
+0:53
+over on the left side.
+0:56
+To begin a sketch, click the create
+0:58
+sketch icon within the create menu and
+1:02
+choose the front plane. For plane
+1:05
+orientation, reference the cube located
+1:08
+in the upper right corner of the
+1:09
+viewport.
+1:11
+The viewport's blue, red, and green
+1:14
+lines correspond to the blue, red, and
+1:17
+green lines on the cube.
+1:20
+Having selected the front plane, we have
+1:22
+now entered the sketch environment.
+1:25
+This is indicated by the appearance of
+1:27
+the sketch menu and the associated
+1:30
+commands at the top of the interface
+1:32
+along with the sketch pallet on your
+1:34
+screen.
+1:36
+To confirm that we're working in
+1:37
+millimeters, navigate to the document
+1:40
+settings in the browser panel on the
+1:42
+left. If necessary, switch to millime by
+1:46
+clicking the change active units icon
+1:50
+and select millime for the length
+1:52
+setting.
+1:54
+We are going to create the side profile
+1:56
+of the spool and revolve it around a
+1:58
+central axis to create a 3D
+2:00
+representation of the spool.
+2:03
+Let's start by drawing the vertical
+2:05
+axis.
+2:07
+Select the line command from the create
+2:10
+menu. Then click on the 0 0 point on the
+2:13
+screen.
+2:16
+move up vertically some distance and
+2:18
+make sure the line snaps exactly
+2:20
+vertical and then click the end point of
+2:23
+the line. We're not going to type in a
+2:26
+distance or an angle at this time. When
+2:29
+complete, press the escape key to get
+2:31
+out of the line command.
+2:34
+To change the line to a center line,
+2:37
+first click on the line to pre-select
+2:39
+it. It will turn blue, indicating that
+2:42
+it is selected.
+2:44
+Then in the sketch palette, choose the
+2:47
+center line line type.
+2:50
+Begin sketching the spool's basic
+2:52
+outline using the line tool.
+2:56
+Refer to the image in exhibit one of the
+2:58
+accompanying documentation for this
+3:00
+video as a guide.
+3:03
+At this initial stage, focus on
+3:06
+capturing the overall shape and do not
+3:08
+be too concerned with precise dimensions
+3:11
+or perfectly horizontal or vertical
+3:13
+lines. These aspects will be refined in
+3:16
+subsequent steps.
+3:20
+As you sketch in Fusion, you'll see
+3:23
+icons appearing next to the lines. These
+3:26
+are constraints which ensure your sketch
+3:28
+behaves predictably. For instance,
+3:31
+constraints can force lines to remain
+3:34
+horizontal, vertical, or perpendicular.
+3:38
+After creating the sketch, I notice an
+3:40
+issue. One of my lines isn't perfectly
+3:43
+vertical. To correct this, I can use the
+3:47
+horizontal vertical constraint found in
+3:49
+the constraint menu.
+3:52
+Selecting this constraint and then the
+3:54
+line will force it to become vertical.
+3:58
+Additionally, I want the bottom edge of
+4:00
+the spool to be horizontal with the
+4:03
+origin point. Therefore, I will apply a
+4:06
+horizontal constraint to both the corner
+4:08
+of the spool and the 000 point.
+4:12
+We can add a collinear constraint to
+4:15
+make the two outside edges stay in line
+4:18
+with each other.
+4:20
+It is better to use constraints than to
+4:23
+have two dimensions.
+4:25
+That way, if you want to change the
+4:27
+outside diameter of the spool, you only
+4:29
+have to edit one dimension instead of
+4:32
+two.
+4:33
+Refer to exhibit two. Unconstrained
+4:37
+sketch geometry is displayed in cyan.
+4:40
+Once fully defined, these lines turn
+4:43
+black. Fully constraining your sketch is
+4:46
+recommended to prevent unexpected
+4:48
+changes downstream.
+4:50
+Dimensions can be added to further
+4:52
+constrain this sketch. To add a
+4:55
+dimension, select the dimension command
+4:58
+within the create menu. Click the outer
+5:01
+vertical edge. Move your mouse and click
+5:04
+again to place the dimension. The blue
+5:08
+highlighted text indicates that it's
+5:10
+ready for input.
+5:12
+Enter 15 and press enter to set the edge
+5:16
+height to 15 mm.
+5:19
+As you add dimensions, your sketch lines
+5:22
+might shift as the dimensions change
+5:24
+their length. If this happens, simply
+5:27
+click and drag them to put them back
+5:29
+into their desired position.
+5:34
+Dimensioning can also be done between
+5:36
+points instead of lines. Simply select
+5:40
+the first point followed by the second,
+5:43
+then position the dimension and then
+5:46
+input the desired value. Continue
+5:49
+adding all of the vertical dimensions.
+5:53
+Refer to exhibit 3.
+5:59
+To create an angular dimension, simply
+6:02
+select the two lines. The dimension will
+6:05
+automatically be applied as an angle.
+6:09
+Because we created a center line to
+6:11
+start out with, we can create diameter
+6:13
+dimensions automatically by selecting
+6:16
+the center line first and then a
+6:18
+vertical edge and then place the
+6:21
+dimension and enter its value.
+6:24
+Notice that the value has a diameter
+6:26
+symbol next to it. This is very handy so
+6:30
+you don't have to do all the
+6:31
+mathematical calculations yourself.
+6:34
+Continue
+6:36
+adding the diameter dimensions and the
+6:38
+other horizontal dimensions.
+6:41
+Notice as we're adding these dimensions
+6:43
+that the cyan lines are turning black,
+6:46
+signifying that they are now becoming
+6:48
+fully constrained.
+6:50
+Refer to exhibit 4.
+6:56
+After adding dimensions, a scan line
+6:58
+remains and the pencil icon next to our
+7:01
+sketch in the spool component sketches
+7:03
+folder indicates that it's not fully
+7:06
+constrained.
+7:08
+We aim for a lock icon instead.
+7:12
+Let's use auto constrain to identify the
+7:14
+missing constraints.
+7:17
+Fusion added two dimensions,
+7:20
+one for the top recess and another for
+7:23
+the initial center line axis.
+7:27
+Click okay and modify these new
+7:29
+dimensions to 4 mm and 40 mm
+7:33
+respectively.
+7:35
+Now you can see the lock symbol next to
+7:37
+our sketch signifying a fully
+7:39
+constrained sketch. The only way this
+7:42
+sketch can change is if we physically
+7:45
+change the dimensions.
+7:47
+Also notice that we have kept the sketch
+7:49
+fairly simple. We haven't added any
+7:52
+fillets or chamfers. We will do that on
+7:55
+the 3D model. It is always a good idea
+7:58
+to keep your sketches as simple as
+8:00
+possible. We are now done with our
+8:02
+sketch. So we can click on finish sketch
+8:05
+in the main menu or in the sketch
+8:07
+palette.
+8:09
+In the next video, we will use our
+8:11
+sketch to create a 3D model.

@@ -1,0 +1,431 @@
+
+0:01
+In this video, the eighth in the getting
+0:03
+started series, we will be using the
+0:05
+sweep command to create the bale arm
+0:07
+wire and learn some additional
+0:10
+functionality such as construction
+0:13
+geometry
+0:14
+projections,
+0:16
+3D sketching, and plane along a path.
+0:21
+Building on our previous work, we will
+0:23
+now utilize the existing components to
+0:25
+design the bale arm wire.
+0:28
+Start by creating a component and naming
+0:31
+it bale arm wire.
+0:34
+To define our sketch plane, we'll first
+0:37
+create some construction geometry.
+0:40
+This will allow us to create a sketch
+0:42
+through the center of the cylinder in
+0:44
+the bail arm.
+0:46
+In the construct menu, select axis
+0:50
+through cylinder
+0:52
+and select the cylindrical face of the
+0:54
+bail arm.
+0:57
+A cyan axis line now runs through the
+1:00
+axis of that cylinder.
+1:02
+Let's repeat that command and also
+1:05
+select the cylinder in the line roller.
+1:10
+Refer to exhibit one.
+1:14
+In the construct menu, choose plane at
+1:18
+an angle.
+1:20
+Then select the axis line in the bail
+1:23
+arm.
+1:24
+This will generate a construction plane
+1:27
+tangent to the axis line.
+1:30
+While the plane's angle around the axis
+1:32
+can be adjusted, it should remain at 0°
+1:36
+in this instance.
+1:38
+Refer to exhibit 2.
+1:41
+Right click on the construction plane
+1:43
+and select create sketch.
+1:47
+To ensure precise placement of our
+1:49
+sketch lines, we need to project
+1:52
+geometry onto the sketch.
+1:55
+From the create menu, choose project
+1:58
+include
+2:00
+and then project.
+2:04
+Rotate the view to look inside the bale
+2:06
+arm cylinder.
+2:09
+Select the cylindrical face and press
+2:11
+okay.
+2:14
+This will project the cylinder's 2D
+2:16
+outline onto the sketch.
+2:20
+Navigate to create project include
+2:24
+include 3D geometry.
+2:28
+Select the cylindrical face within the
+2:30
+line roller.
+2:32
+This action projects the cylinder's 3D
+2:35
+edges into 3D space rather than
+2:39
+projecting them flat onto the sketch
+2:41
+plane.
+2:42
+Finally, go to create
+2:46
+project include
+2:48
+intersect
+2:50
+and select the angled axis line.
+2:55
+This creates a point where the axis line
+2:58
+intersects with the sketch plane.
+3:01
+We just used three different projection
+3:04
+types to gather information from our
+3:06
+existing models to help us design the
+3:09
+bail arm wire.
+3:11
+Refer to exhibit 3.
+3:14
+Click on the top plane of the view cube
+3:16
+to look at the sketch from the top.
+3:20
+Use the line command to draw a line from
+3:23
+the middle of the back projected line of
+3:25
+the cylinder in the bail arm 22 mm
+3:29
+vertically.
+3:32
+Refer to exhibit 4.
+3:35
+Start by drawing another line at a
+3:37
+slight angle from the intersection point
+3:40
+near the line roller.
+3:43
+Then horizontally constrain the two
+3:46
+vertical points.
+3:50
+Use the P shortcut key to access the
+3:54
+project command.
+3:57
+Change the selection filter to bodies.
+4:01
+Select the line roller body and press
+4:04
+okay.
+4:07
+This action will project a silhouette of
+4:09
+the entire body onto the sketch.
+4:12
+Finally, use the parallel constraint to
+4:16
+align the newly drawn line with the edge
+4:19
+of the line roller.
+4:22
+Refer to exhibit five. Create a
+4:26
+threepoint arc using the two existing
+4:28
+end points and an additional point
+4:31
+located above them.
+4:34
+Next, initiate the dimension command.
+4:39
+Right click and choose pick circle arc
+4:42
+tangent.
+4:45
+Select the newly created arc and then
+4:48
+the projected line that the 22 mm
+4:51
+dimension refers to.
+4:54
+Then place the dimension and input 37 mm
+4:57
+for the distance.
+5:00
+To connect our sketch to the line
+5:02
+roller, we'll create a short segment
+5:04
+using the 3D sketching capabilities.
+5:08
+From the sketch pallet, select 3D
+5:10
+sketch, then choose the line tool from
+5:14
+the create menu.
+5:18
+Start by clicking on the point where the
+5:20
+axis intersects the sketch plane.
+5:23
+A 3D sketch triad will appear at this
+5:26
+point.
+5:28
+The XY plane is initially highlighted,
+5:31
+but you'll need to change this to the XZ
+5:33
+plane or the front plane.
+5:37
+Click on the XZ plane within the triad.
+5:41
+The grid will rotate vertically and the
+5:44
+XZ plane will be highlighted.
+5:48
+This process allows you to control which
+5:50
+plane you sketch and snap to.
+5:54
+As you rotate the view, you'll notice
+5:57
+that the cylinder's point doesn't lie on
+5:59
+this plane, which is why we projected
+6:02
+the geometry to snap to it.
+6:06
+Move your cursor to the center point of
+6:08
+the projected cylinder on the line
+6:10
+roller.
+6:12
+Ensure that the cursor changes to a
+6:15
+circle indicating that it has snapped to
+6:17
+the point and then click
+6:21
+to complete the line. Click the check
+6:24
+box next to the triad.
+6:27
+Finally, turn off 3D sketch in the
+6:30
+sketch pallet as this option is not
+6:32
+needed all the time.
+6:35
+Refer to exhibit six.
+6:39
+Use the fill it command to fill it the
+6:41
+right side of the ark 12 mm.
+6:50
+Fill at the left side of the ark 20 mm
+6:54
+and then fill at the small corner 2 mm
+6:59
+and finish the sketch.
+7:04
+To simplify the next few steps,
+7:06
+deactivate the bail, bail arms, and real
+7:11
+body components.
+7:14
+Our next step involves using the sweep
+7:16
+command to sweep a profile along the
+7:19
+recently created path.
+7:22
+But before we proceed, we must create
+7:24
+the profile for the sweep and ensure
+7:27
+that it's positioned on the path.
+7:30
+In the construct menu, select plane
+7:33
+along path and click somewhere along the
+7:36
+path.
+7:40
+Notice that you can drag the plane
+7:41
+anywhere along the path. However, we
+7:44
+want to drag it to the very beginning at
+7:47
+a distance of zero and then press okay.
+7:52
+Right click on the plane and choose
+7:54
+create sketch to create a sketch on that
+7:57
+plane.
+7:59
+Draw a 1.65 diameter circle using the
+8:03
+end point of the path as the center
+8:06
+point for the circle.
+8:08
+Refer to exhibit 7.
+8:11
+To initiate the sweep command, access
+8:14
+the create menu and select sweep, which
+8:17
+will open the sweep dialogue.
+8:21
+First, choose the circle to serve as the
+8:23
+profile.
+8:26
+Next, click the select button adjacent
+8:29
+to the path and then select the desired
+8:32
+path within the viewport.
+8:35
+Due to the chain selection option being
+8:38
+enabled, all tangentially connected
+8:40
+segments of the path will be
+8:42
+automatically selected as a continuous
+8:45
+chain.
+8:47
+A circle is a pretty straightforward
+8:49
+shape to sweep. Let's complicate things
+8:52
+by sweeping a more intricate profile.
+8:56
+Edit the final sketch in the timeline.
+8:59
+Change the circle to construction
+9:01
+geometry
+9:03
+and then create a circumscribed polygon
+9:06
+that snaps to the construction circles
+9:09
+radius.
+9:11
+Then click finish sketch.
+9:16
+Refer to exhibit 8.
+9:20
+The sweep feature in the timeline will
+9:22
+turn yellow because the profile it used
+9:24
+for the original sweep has been
+9:26
+converted to construction geometry.
+9:29
+To update the sweep, edit the sweep
+9:32
+feature in the timeline.
+9:35
+Select the hexagon profile
+9:38
+and then press okay.
+9:42
+Notice how the hexagon profile is now
+9:44
+being swept along the path.
+9:48
+From the main menu, click the down arrow
+9:50
+next to the undo icon.
+9:53
+Then from the undo tree, select undoedit
+9:58
+sketch, which is approximately five
+10:00
+steps down.
+10:03
+A quick way to turn all of our
+10:05
+components back on is to rightclick on
+10:08
+the top level and select show all
+10:11
+components.
+10:15
+Activate the top level component to ungo
+10:18
+all of the other components.
+10:22
+Press the save icon to save the
+10:24
+assembly.
+10:27
+In the next video, we will use the loft
+10:30
+command to create the handle.

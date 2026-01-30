@@ -1,0 +1,264 @@
+
+0:01
+This video, the second in the getting
+0:02
+started series, will guide you through
+0:04
+the Fusion interface. Topics covered
+0:07
+include the user interface, setting
+0:10
+units, changing preferences, and using
+0:13
+pan, zoom, and orbit functionalities.
+0:17
+The Fusion interface features workspaces
+0:19
+in the upper left corner which divide
+0:22
+its functionality into areas like
+0:24
+design, simulation, manufacture,
+0:28
+drawings, and electronics.
+0:32
+This organization simplifies the user
+0:34
+experience
+0:36
+within each workspace. Further
+0:38
+subdivision exists at the top through
+0:41
+sub menus such as solid, surface, mesh,
+0:45
+sheet metal, and others.
+0:49
+The data panel is also located in this
+0:51
+area. It allows you to view your
+0:54
+projects and manage the viewing and
+0:55
+loading of your designs.
+0:58
+The data panel will be discussed in a
+1:00
+future video in this series.
+1:03
+The primary toolbar contains main menus
+1:06
+such as create, modify, assemble,
+1:10
+configure, and inspect to name a few.
+1:16
+Each main menu displays its available
+1:18
+commands.
+1:20
+Observe that some commands have
+1:22
+corresponding keyboard shortcuts
+1:25
+such as E for extrude and H for h whole.
+1:29
+Additionally, certain commands feature
+1:32
+flyyou sub menus like pattern.
+1:37
+The structure browser located on the
+1:39
+left displays and organizes your
+1:42
+assemblies components and parts.
+1:45
+Here you can toggle the visibility of
+1:47
+parts,
+1:49
+activate components, and rearrange the
+1:52
+assembly structure.
+1:55
+Expanding the document settings flyyou
+1:58
+as indicated by the gear icon allows you
+2:01
+to configure the length and mass
+2:03
+property units for the current design.
+2:06
+The timeline located at the bottom of
+2:09
+the screen displays the features or the
+2:11
+steps used to construct each component.
+2:15
+It allows you to revisit and modify your
+2:17
+design features such as sketch
+2:20
+dimensions, shell thicknesses, and
+2:23
+fillet radiuses.
+2:24
+You can think of it like a step-by-step
+2:27
+recipe of how the part was designed.
+2:30
+The main viewport displays a 3D
+2:32
+representation of your design, whether
+2:34
+it's a single part or a complete
+2:37
+assembly.
+2:38
+Let's create a simple box to learn how
+2:40
+to navigate the viewport.
+2:44
+Go to the create menu and then select
+2:47
+box.
+2:49
+Select an orange plane to specify the
+2:51
+drawing surface. Then click to define
+2:54
+the first corner and again to define the
+2:57
+opposite corner of the box.
+3:01
+Confirm by clicking okay in the box
+3:03
+dialogue.
+3:06
+To pan, hold down the middle mouse
+3:08
+button and move the mouse.
+3:12
+To zoom, scroll the middle mouse wheel
+3:15
+away from you to zoom out or toward you
+3:18
+to zoom in.
+3:21
+Notice that zooming is centered on the
+3:23
+mouse cursor's position.
+3:28
+And to orbit, hold down the shift key
+3:31
+and the middle mouse button to rotate
+3:33
+the model and view it from different
+3:35
+angles.
+3:39
+You can also orbit the view by dragging
+3:41
+the cube located in the viewports upper
+3:44
+right corner.
+3:46
+Clicking different faces of this cube
+3:48
+allows you to view your design from the
+3:50
+top, the front, side, or an isometric
+3:54
+view.
+3:58
+Select the home icon to restore the view
+4:01
+and fit your design back into the
+4:03
+screen.
+4:04
+At the bottom of the viewport are the
+4:07
+settings icons where you can set visual
+4:09
+styles such as shaded or wireframe.
+4:16
+You can also change the environment
+4:18
+background to set different background
+4:20
+themes.
+4:23
+The graphics effects menu allows you to
+4:26
+show things such as shadows,
+4:28
+anti-aliasing, or reflections.
+4:32
+By turning some of these on or off, it
+4:34
+can affect the performance of your
+4:36
+machine.
+4:38
+Object visibility allows you to toggle
+4:41
+what work features are displayed in the
+4:43
+viewport.
+4:46
+In the camera settings, it's best to
+4:49
+choose the perspective with ortho faces
+4:52
+option.
+4:53
+This setting provides the most realistic
+4:55
+3D view of your design.
+4:58
+Additionally, it automatically switches
+5:00
+to an orthographic view when you're
+5:02
+looking directly at one of the planer
+5:04
+faces of the cube, such as front or top.
+5:09
+The preference menu can be accessed by
+5:12
+clicking on your avatar or initials in
+5:14
+the upper right corner of Fusion.
+5:18
+This menu is organized into several
+5:20
+sections on the left and allows you to
+5:22
+customize various settings, including
+5:25
+default modeling orientation and
+5:28
+automatic save on close.
+5:33
+Under the design section, there are many
+5:35
+options you might find useful. One being
+5:38
+scale entire sketch at first dimension.
+5:43
+More information about each setting can
+5:45
+be found by hovering over it and reading
+5:48
+the tool tip.
+5:51
+You can also set what the default units
+5:53
+for all designs should be.
+5:56
+Now that you're familiar with the user
+5:58
+interface, the next video will explain
+6:00
+how to begin sketching in Fusion.
+

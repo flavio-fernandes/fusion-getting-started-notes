@@ -1,0 +1,301 @@
+
+0:00
+In this video, the 12th in the getting
+0:03
+started series, we will learn about the
+0:05
+data panel and learn some additional
+0:07
+functionality such as team hubs,
+0:11
+projects,
+0:12
+public links, collaboration,
+0:16
+the home icon, and creating folders.
+0:22
+In Fusion, the data panel enables you to
+0:24
+view your projects and designs. You can
+0:27
+display or hide the data panel at any
+0:29
+time by clicking the data panel icon
+0:32
+next to the file menu.
+0:35
+At the top of the data panel, you'll
+0:37
+find the active team hub, which serves
+0:40
+as a central location for your team to
+0:43
+collaborate on designs and projects.
+0:46
+Think of a team hub as a highle
+0:48
+organizational name such as NASA.
+0:52
+Beneath this team hub, you'll find
+0:54
+various projects like the Mars rover
+0:57
+project or the Hubble telescope project.
+1:01
+Within each project, individual parts
+1:04
+and assemblies such as the wheel
+1:06
+assembly or an upper arm component are
+1:09
+stored.
+1:11
+Team hubs are particularly beneficial
+1:13
+for teams of designers who are working
+1:16
+on the same project or managing multiple
+1:19
+projects simultaneously.
+1:21
+refer to exhibit one.
+1:25
+The other option you have is the people
+1:27
+tab in the data panel. This is useful if
+1:30
+you want to invite certain people into
+1:32
+certain projects and not have them have
+1:35
+access to the whole team hub.
+1:39
+Clicking on the people tab allows you to
+1:41
+manage members in the project you are
+1:43
+currently in.
+1:46
+It will bring up a web browser and you
+1:48
+can enter in the email address of the
+1:50
+person or people that you want to add to
+1:53
+just that project.
+1:56
+Refer to exhibit 2.
+1:59
+If you want to just share a single
+2:01
+design with someone, you can create a
+2:04
+shared link.
+2:06
+This brings up a dialogue that creates a
+2:08
+custom link that you can copy and share
+2:11
+with your customer.
+2:14
+There are also options to allow them to
+2:16
+download the model in multiple different
+2:18
+formats and to also require an
+2:20
+additional password to be able to open
+2:23
+the link.
+2:25
+Refer to exhibit 3.
+2:28
+The sharable link offers a significant
+2:31
+advantage. Your customer doesn't need to
+2:33
+install any software to view the design
+2:36
+as it's entirely web browserbased.
+2:40
+This allows them to pan, zoom, and orbit
+2:42
+the model, take measurements, and even
+2:45
+add comments.
+2:48
+In Fusion, these markups are visible in
+2:51
+the comments section or in the web
+2:54
+details, which will be discussed later.
+2:58
+Refer to exhibit 4.
+3:01
+You can change some settings options in
+3:03
+the data panel by clicking on the gear
+3:06
+icon.
+3:07
+This menu allows you to sort the files
+3:09
+by alphabetical name or last updated.
+3:15
+You can also view the files in a list
+3:17
+mode or in a grid mode which shows
+3:20
+larger thumbnails of the models.
+3:24
+The open on web icon allows you to
+3:27
+access and manage your project data
+3:29
+efficiently within a web browser.
+3:33
+This centralized hub enables actions
+3:35
+such as selecting and managing multiple
+3:38
+files simultaneously,
+3:40
+including moving, copying, exporting, or
+3:43
+deleting them.
+3:47
+For instance, clicking on the fishing
+3:49
+reel assembly reveals all associated
+3:52
+design references.
+3:55
+Further investigation by clicking on the
+3:58
+spool shows its use in the fishing reel
+4:01
+assembly and displays customer comments
+4:04
+received via shared links.
+4:08
+A more detailed view of these markups
+4:10
+and comments can be accessed by clicking
+4:13
+the view and manage comments button.
+4:17
+Refer to exhibit 5.
+4:22
+Let's go back into Fusion and explore
+4:24
+the home icon.
+4:27
+This is a more graphical representation
+4:29
+of your files and gives you some
+4:31
+powerful search capabilities.
+4:34
+On the left, you will notice it's
+4:36
+currently displaying your recent
+4:38
+designs.
+4:40
+Click on the projects tab on the left,
+4:42
+then on default project under the
+4:45
+project section.
+4:48
+In the search field, type in wire and
+4:51
+press enter.
+4:54
+The results will show the original
+4:56
+fishing reel design we started with and
+4:58
+the fishing reel assembly we recently
+5:01
+created since both of them have a
+5:03
+component in them with the word wire in
+5:06
+their name.
+5:08
+Refer to exhibit six
+5:13
+to locate the spool. Clear the current
+5:15
+search and perform a new search for
+5:18
+spool.
+5:21
+Click the three dots next to the spool's
+5:23
+name and select show in location.
+5:28
+Fusion will then open the project
+5:30
+containing the spool.
+5:34
+Finally, click on the spool to open it
+5:36
+in a new tab.
+5:39
+Refer to exhibit 7.
+5:42
+You can also organize your project by
+5:44
+creating folders. In the data panel,
+5:48
+click on new folder and name it handle
+5:51
+parts.
+5:54
+Right click on the handle start file and
+5:57
+select move.
+5:59
+Select the handle parts folder from the
+6:02
+dialogue and then click on the move
+6:04
+button.
+6:07
+Repeat this process for the handle grip
+6:09
+file.
+6:18
+Create another folder and name it bail
+6:20
+parts.
+6:22
+This time hold down your control key and
+6:25
+select the bail arms, spool, bail, and
+6:30
+tensioner.
+6:32
+Then right click and select move.
+6:36
+Choose the bail parts folder and
+6:38
+complete the move.
+6:41
+All of the files will move into the
+6:43
+folder at the same time.
+6:46
+It is a good idea to keep your projects
+6:48
+as organized as possible to help
+6:50
+simplify your design process.
+6:54
+Refer to exhibit 8.
+6:57
+In the next video, we will learn about
+6:59
+inspecting our design.

@@ -1,0 +1,580 @@
+
+0:01
+In this video, the 14th in the getting
+0:03
+started series, we will learn about
+0:05
+creating a drawing of your design and
+0:08
+learn some additional functionality such
+0:10
+as document settings, parts list tables,
+0:15
+creating sheets,
+0:17
+smart dimensions,
+0:19
+autodimensions,
+0:21
+and automatic drawing creation.
+0:24
+We will explore both manual and
+0:27
+automatic methods for creating a drawing
+0:29
+set in Fusion in this video.
+0:32
+With the fishing reel assembly design
+0:34
+open, go to the file menu and select new
+0:38
+drawing from design.
+0:41
+The create drawing dialogue will appear
+0:43
+and allow you to specify some settings.
+0:46
+We will start by keeping the manual
+0:48
+setting.
+0:50
+The next option is what we want to
+0:52
+create a drawing of. the whole assembly,
+0:55
+only what's displayed on the screen or
+0:58
+only what we select.
+1:00
+For this example, we will do the full
+1:02
+assembly.
+1:04
+Change the standard from ISO to ASME,
+1:08
+but leave the units at millimeters.
+1:11
+Finally, change the sheet size to C and
+1:15
+press okay.
+1:18
+Refer to exhibit one.
+1:21
+A new drawing design tab will appear
+1:24
+along with a C-sized title block. If you
+1:28
+move your cursor, you will see a
+1:30
+graphical thumbnail of the fishing reel
+1:32
+assembly attached to the cursor.
+1:35
+In the drawing view dialogue, change the
+1:38
+orientation to northeast isometric and
+1:42
+notice how the thumbnail updates.
+1:45
+First, set the scale from 1:2 to 2: 1 to
+1:51
+enlarge it on the screen.
+1:53
+Next, change the style to shaded and
+1:57
+enable full length tangent edges.
+2:02
+Finally, click the left side of the
+2:05
+screen to position the isometric view
+2:07
+and press okay.
+2:10
+Refer to exhibit two.
+2:13
+Access the smart table icon located
+2:16
+above the tables menu.
+2:19
+This feature intelligently analyzes the
+2:22
+drawing to generate the appropriate
+2:24
+table type. For assemblies, it
+2:27
+automatically creates a parts list. Had
+2:30
+a sheet metal flat pattern been used, it
+2:33
+would have generated a bend table
+2:35
+instead.
+2:37
+Position the table in the upper right
+2:39
+corner of the sheet border.
+2:42
+The table is generated, but the text
+2:44
+appears somewhat small.
+2:47
+To adjust the default text size, locate
+2:50
+and click the change document settings
+2:53
+icon within the browser.
+2:56
+From there, modify the text height group
+3:00
+size from medium to large.
+3:04
+This settings dialogue provides access
+3:07
+to a wide array of drawing
+3:09
+configurations
+3:10
+including linear precision,
+3:13
+leading or trailing zeros,
+3:17
+dimension colors and arrow heads,
+3:20
+view defaults,
+3:22
+and automation settings among others.
+3:27
+Refer to exhibit 3.
+3:30
+Adjust the column widths of the table by
+3:33
+clicking and dragging to accommodate the
+3:35
+larger text and the table will
+3:37
+automatically update.
+3:41
+If necessary,
+3:43
+reposition the isometric view by
+3:45
+clicking and dragging on it.
+3:48
+The item balloons were automatically
+3:50
+created, but we want to reorder the item
+3:53
+numbers.
+3:54
+In the tables menu, select reumber and
+3:59
+then click on the top balloon.
+4:02
+Then continue clicking down the balloons
+4:05
+and notice they reumber and the table
+4:07
+reorders accordingly.
+4:12
+Create a new sheet by clicking on the
+4:14
+quick add plus icon at the bottom of the
+4:17
+screen.
+4:19
+In the main menu, click on base view to
+4:22
+place a base view of the assembly.
+4:27
+Set the scale to 3:1 and then place the
+4:31
+view and press okay.
+4:37
+We want to have a view of only a single
+4:39
+component and not of the whole assembly.
+4:43
+So right click on the spool and select
+4:46
+suppress all except selected and all of
+4:50
+the other components will get removed
+4:52
+from the view.
+4:54
+Refer to exhibit 4.
+4:57
+Now use the projected view command from
+5:00
+the main menu and select the front view
+5:03
+as the parent and place a top and
+5:07
+isometric view.
+5:09
+Then press the check box to accept.
+5:13
+Right click on the isometric view and
+5:16
+select edit view from the marking menu
+5:18
+to change the settings of the view.
+5:22
+Change the style of the view to be
+5:24
+shaded and then close the dialogue.
+5:28
+There is a lot of detail on the inside
+5:30
+of the spool. So we should create a
+5:33
+section view to slice through the spool.
+5:37
+Click on section view from the main
+5:39
+menu. Then click on the top view to
+5:43
+select it as the parent view.
+5:46
+Hover over the left side of the circle
+5:49
+and the selection line will snap to the
+5:51
+center of the circle.
+5:54
+Then click to start the section line.
+5:59
+Move to the right of the circle and
+6:00
+click again to finish the horizontal
+6:03
+section line.
+6:05
+A section preview will now be snapped to
+6:08
+your cursor and it wants to place it
+6:10
+either above or below the top view.
+6:14
+You can press the shift key once to
+6:16
+toggle out of the vertical alignment.
+6:20
+Place the section view to the right of
+6:22
+the top view and press okay.
+6:26
+Refer to exhibit 5.
+6:28
+To properly document the design, we need
+6:31
+to add dimensions to the drawing.
+6:34
+We'll utilize the smart dimension tool
+6:37
+by clicking the dimension icon located
+6:40
+above the dimension menu.
+6:43
+This versatile tool automatically
+6:45
+identifies the element you select and
+6:48
+generates the appropriate dimension type
+6:50
+such as a radius, diameter, angle, or
+6:54
+linear dimension.
+6:56
+For example, clicking the top horizontal
+6:59
+line automatically recognizes it as a
+7:02
+circular projection.
+7:04
+dimensioning it as a 27 mm diameter.
+7:08
+To place a 15 mm linear dimension, click
+7:12
+the bottom edge and then the edge of the
+7:15
+spools shelf.
+7:18
+An angular dimension of 120° can be
+7:21
+created by clicking the angular line at
+7:24
+the top and the horizontal line.
+7:28
+Finally, to add a radius dimension to a
+7:31
+fillet, rightclick it and select radius.
+7:37
+Double clicking the R1 dimension allows
+7:39
+you to add TYP to the end, signifying
+7:44
+that all radi on the spool are radius
+7:47
+one unless otherwise specified.
+7:51
+In the dimension menu, you will see all
+7:54
+of the individual types of dimensions
+7:56
+you can create.
+7:58
+Let's create baseline dimensions off of
+8:01
+the existing 15 mm dimension.
+8:04
+Select baseline dimension from the menu.
+8:08
+Then click on the bottom extension line
+8:10
+of the 15 dimension on the screen.
+8:13
+Then click the two horizontal lines on
+8:16
+top of the spool to place the 30.5
+8:20
+and the 33 mm dimensions.
+8:24
+Refer to exhibit six.
+8:28
+In the top view, first zoom in.
+8:33
+Then use the center mark pattern
+8:36
+command, clicking the two arcs of the
+8:38
+slot to add center marks.
+8:43
+Next, dimension the slots width and
+8:46
+diameter using the dimension tool.
+8:51
+Finally, dimension the diameters of the
+8:53
+circles in the top view.
+8:57
+refer to exhibit 7.
+9:01
+The title block has text attributes in
+9:04
+it that you can edit.
+9:06
+Double click on the title block and it
+9:08
+will zoom up onto the screen.
+9:11
+Then click on title two and type in
+9:15
+spool and press enter.
+9:20
+While the previous example required
+9:22
+manual dimensioning, Fusion offers an
+9:25
+automatic dimensioning tool that
+9:27
+streamlines the process.
+9:30
+To utilize this, create a new sheet and
+9:34
+add a base view with a 2:1 scale and
+9:38
+shortened tangent edges.
+9:43
+In the browser, right click on the bail
+9:46
+and select suppress all except selected.
+9:52
+Afterward, add top, right, and isometric
+9:56
+projected views.
+9:59
+Finally, set the isometric view to
+10:02
+shaded.
+10:04
+From the dimension menu, choose auto
+10:07
+dimension.
+10:10
+The autodimension dialogue will appear
+10:12
+offering various dimension styles like
+10:15
+symmetric, orordinate and baseline.
+10:21
+You can also use the density slider to
+10:23
+adjust the number of dimensions
+10:25
+displayed.
+10:29
+While the auto dimension tool
+10:30
+significantly reduces the effort and
+10:32
+time required, you are still responsible
+10:35
+for ensuring all necessary dimensions
+10:37
+are present.
+10:40
+You will likely want to reposition,
+10:42
+delete, or add dimensions as needed.
+10:49
+Finally, edit the title block and rename
+10:52
+it to bale.
+10:56
+Refer to exhibit 8.
+10:59
+You would continue using this process
+11:01
+for creating sheets for each of the
+11:03
+other components. You would add a new
+11:06
+sheet, place the base view, display only
+11:09
+the component you want, create the
+11:12
+projected views, and then edit the view
+11:14
+settings for each sheet.
+11:17
+Then you would either manually or
+11:19
+automatically add the dimensions.
+11:22
+Well, there's an easier way, and that is
+11:24
+to use Fusion's automatic drawing
+11:27
+creation.
+11:29
+We wanted to use a specific drawing
+11:32
+template. So, upload the getting started
+11:35
+series title block file into your
+11:38
+getting started series project from the
+11:40
+exhibits.
+11:44
+Return to the fishing reel assembly tab
+11:47
+and select file then new drawing from
+11:51
+design.
+11:53
+This time, choose automatic in the
+11:56
+create drawing dialogue.
+11:59
+From the template dropdown, click browse
+12:02
+and navigate to the getting started
+12:04
+series project to select the getting
+12:07
+started series title block template.
+12:10
+Observe that the standard units and
+12:13
+sheet size options became grayed out as
+12:16
+they are predefined by the template.
+12:20
+Finally, adjust the structure to all
+12:23
+level and enable external components.
+12:28
+Refer to exhibit nine.
+12:32
+Fusion's automatic drawing process runs
+12:34
+in the background, allowing you to
+12:36
+continue working.
+12:38
+You'll receive a notification when the
+12:40
+drawing set is complete.
+12:44
+Upon completion, click open drawing.
+12:50
+The selected template will generate a
+12:53
+shaded isometric view with a complete
+12:55
+parts list on the first sheet.
+12:59
+The next sheet displays a top, front,
+13:02
+right, and a shaded isometric view of
+13:04
+the entire assembly, including overall
+13:07
+dimensions.
+13:11
+Next, as you go through the sheets,
+13:13
+you'll find the individual components
+13:15
+with their automatic dimensions.
+13:18
+You might need to reposition, add, or
+13:21
+remove some of these dimensions to suit
+13:23
+your preferences, as previously
+13:25
+demonstrated.
+13:28
+Additionally, you have the option to
+13:30
+delete or rearrange sheets if needed.
+13:38
+There are many other commands in the
+13:39
+drawing workspace we don't have time to
+13:41
+cover in this video, such as detail
+13:44
+views, broken views, leader notes,
+13:48
+symbols, custom tables, and more.
+13:54
+With the drawing set finalized, you can
+13:56
+now export it as a PDF or DWG.
+14:01
+Select export PDF and observe the
+14:04
+options to export all sheets, a specific
+14:07
+sheet, or a range.
+14:10
+Enable open PDF and ensure line weights
+14:14
+remains checked before clicking okay.
+14:19
+The PDF will then open displaying the
+14:22
+highquality output.
+14:26
+Back in Fusion, click on the save icon
+14:29
+to save the drawing into the project.
+14:32
+In the next video, we will learn about
+14:34
+manufacturing with Fusion.
+

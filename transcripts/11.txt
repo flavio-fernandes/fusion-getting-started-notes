@@ -1,0 +1,491 @@
+
+0:00
+In this video, the 11th in the getting
+0:03
+started series, we will learn how to
+0:05
+assemble our components together and
+0:07
+learn some additional functionality such
+0:10
+as joint command, asbuilt joints, rigid
+0:15
+groups,
+0:16
+constrain components,
+0:19
+motion links, and insert fasteners.
+0:24
+Now that we've created a majority of the
+0:26
+models in the design, we want to start
+0:28
+assembling them together.
+0:31
+Start by expanding open the data panel
+0:33
+and opening the fishing reel assembly.
+0:38
+With the data panel still open, right
+0:40
+click on the spool in the data panel and
+0:43
+select insert into current design.
+0:48
+The spool will appear at the bottom of
+0:50
+the fishing reel. So, drag one of the
+0:52
+translation arrows to move the spool off
+0:55
+to the side and press okay.
+0:59
+Refer to exhibit one.
+1:02
+We want to move the spool to a very
+1:04
+specific position. So, we will use the
+1:07
+joint command to accomplish this.
+1:10
+From the assemble menu, select joint.
+1:15
+Zoom up on the top of the spool and
+1:18
+hover near the slot.
+1:21
+You will see many tick marks signifying
+1:24
+center points, midpoints, and end
+1:27
+points.
+1:29
+Trying to pick the correct one can be
+1:31
+challenging as you move your mouse.
+1:34
+Here's a neat tip. Hold down the control
+1:37
+or command key to control your
+1:39
+selection, and it will only allow you to
+1:42
+pick the tick marks on the face when you
+1:44
+held down the control key.
+1:48
+Click on the center point in the middle
+1:50
+of the slot.
+1:52
+Refer to exhibit two.
+1:56
+Zoom out. Then zoom in on the bottom
+1:59
+threaded area of the shaft.
+2:02
+Hover over the flat face at the bottom
+2:05
+of the threads.
+2:07
+A tick mark will appear at the center of
+2:10
+the shaft.
+2:12
+Hold down the control key and select the
+2:14
+center mark.
+2:16
+Refer to exhibit three.
+2:20
+The spool will move from the original
+2:22
+location to this new location.
+2:25
+It may end up flipped in orientation.
+2:29
+If so, just click the flip option in the
+2:32
+joint dialogue.
+2:35
+Click on the motion tab in the dialogue
+2:37
+to confirm that the motion type is set
+2:39
+to rigid.
+2:42
+The top center of the slot on the spool
+2:44
+is now rigidly connected with the center
+2:47
+of the flat face of the shaft.
+2:50
+If we rotate the bail, you will notice
+2:53
+that the spool and the shaft rotate
+2:55
+together because they are rigidly
+2:57
+connected.
+2:59
+However, you will also notice that the
+3:01
+bail wire is not rotating with the
+3:03
+assembly as we would like.
+3:07
+With the bail wire in its current
+3:09
+position, we can utilize the asbuilt
+3:11
+joint tool.
+3:14
+This tool found in the assemble menu
+3:17
+allows us to define a joint type without
+3:19
+the need to reference tick marks.
+3:23
+Select asbuilt joint. Then choose both
+3:26
+the bail wire and the small black bale
+3:29
+arm.
+3:31
+Ensure that the motion type is set to
+3:33
+rigid and then click okay.
+3:37
+Now when the bail rotates, the bail wire
+3:40
+will move in conjunction with it thanks
+3:43
+to the rigid asbuilt joint.
+3:47
+You will notice a chain link icon next
+3:50
+to the spool and some other components
+3:52
+in the browser indicating that they are
+3:54
+referenced designs.
+3:57
+This means that you can't directly
+3:58
+modify them, for example, by adding a
+4:01
+fillet or a chamfer. To make changes,
+4:04
+you'd typically open the original model,
+4:07
+make and save your edits, and then the
+4:10
+update would reflect in this design.
+4:13
+Alternatively, Fusion offers an edit in
+4:16
+place feature, allowing you to make
+4:18
+changes directly within this design, and
+4:21
+saving it will also update the original
+4:24
+spool design.
+4:26
+Access the data panel and insert the
+4:28
+handle start subasssembly.
+4:32
+Observe that currently there are no
+4:34
+joint relationships between the
+4:36
+components when attempting to drag them.
+4:40
+To connect the handle and the shaft, use
+4:42
+the rigid group feature from the
+4:44
+assemble menu.
+4:46
+Select both the handle and the shaft,
+4:49
+but do not include the end cap at this
+4:51
+time.
+4:53
+Now, moving the handle will also move
+4:56
+the shaft.
+4:59
+To position the handle, we will use the
+5:01
+joint command again.
+5:04
+This time, use the J shortcut key to run
+5:08
+the joint command.
+5:10
+Select the outside circular edge of the
+5:12
+handle and then the circular edge on the
+5:16
+reel.
+5:17
+You may need to flip the alignment.
+5:21
+Set the motion type to revolute.
+5:25
+Refer to exhibit 4.
+5:31
+The constrain components command is
+5:33
+ideal for keeping the hexagon face of
+5:35
+the end cap aligned with the hex shaft.
+5:40
+To do this, go to the assemble menu and
+5:42
+select constrain components.
+5:46
+Then select the top inside face of the
+5:49
+hex hole in the end cap and the top face
+5:53
+of the hex shaft.
+5:55
+This action will ensure that these two
+5:58
+faces remain planer.
+6:01
+Refer to exhibit 5.
+6:04
+Next, click the plus symbol in the
+6:06
+dialogue to add another constraint.
+6:11
+Select the circular edge of the end cap
+6:14
+and the circular edge of the reel where
+6:16
+the end cap would sit.
+6:19
+This creates a revolute relationship
+6:21
+between these two edges.
+6:24
+Refer to exhibit six.
+6:27
+Rotate the endcap and notice that the
+6:29
+handle rotates also as it's connected to
+6:31
+the shaft that the end cap now has a
+6:34
+relationship with.
+6:36
+We want the bail to rotate when we crank
+6:38
+the handle. So, we can link the two
+6:40
+together with a motion link. In the
+6:43
+assemble menu, select motion link and
+6:47
+then select the revolute joint on the
+6:49
+handle and then the revolute joint on
+6:52
+the bail.
+6:54
+The preview will show the two joints
+6:56
+linked together.
+6:59
+We want the bail to rotate clockwise as
+7:02
+we rotate the handle clockwise.
+7:04
+So, click the reverse option in the
+7:06
+dialogue and press okay.
+7:10
+Now, crank the handle in the viewport
+7:12
+and notice the movement on the screen.
+7:19
+We can also change the gear ratio of the
+7:21
+spool by editing the motion link.
+7:25
+Right click on the motion link in the
+7:26
+timeline and select edit feature.
+7:31
+Change the angle of the first angle
+7:33
+dialogue to 90.
+7:36
+This means that for every 90° we turn
+7:39
+the handle, the bail will turn 360°.
+7:44
+Press okay and crank the handle and
+7:47
+notice the difference in rotational
+7:49
+speed.
+7:56
+Insert the handle grip into the design
+7:58
+and drag it off to the side.
+8:02
+Create a revolute joint between the
+8:04
+circular edge of the handle grip and the
+8:07
+circular edge of the handle.
+8:16
+To hold the handle grip in place, we
+8:18
+need to insert a fastener.
+8:21
+From the insert menu, select insert
+8:24
+fastener.
+8:27
+From the standard pull down, scroll down
+8:30
+and select metric under the unit system.
+8:34
+This will filter out all of the other
+8:36
+fasteners and only show the metric
+8:38
+fasteners.
+8:41
+Then click on bolts and screws,
+8:44
+then round washer head.
+8:48
+The dialogue will now show all of the
+8:51
+metric round washer head screws that are
+8:53
+available.
+8:56
+Let's filter our selection even more and
+8:58
+select just the ISO standard from the
+9:00
+pull down.
+9:02
+Now only the metric ISO round washer
+9:05
+head screw is displayed.
+9:08
+Click on it to select it.
+9:11
+Refer to exhibit 7.
+9:14
+Hover over the hole in the handle and
+9:17
+the appropriate fastener size will
+9:19
+automatically be selected.
+9:22
+Click to place the fastener. Then set
+9:25
+the nominal length to 16 and click okay.
+9:30
+Observe how the fastener automatically
+9:32
+creates a rigid joint when you rotate
+9:35
+the handle.
+9:39
+The last part is to assemble the
+9:41
+tensioner at the top.
+9:44
+Upload the tensioner file from the
+9:46
+exhibits into the project and then
+9:49
+insert it into the design.
+10:05
+Drag the tensioner up above the whole
+10:08
+assembly and press okay.
+10:12
+Again, we want to line up the flat faces
+10:15
+of the screw shaft with the tensioner.
+10:18
+So, we will use the constrain components
+10:20
+one more time.
+10:22
+Select the side flat face of the screw
+10:25
+hole on the tensioner
+10:28
+and then the side flat face of the
+10:30
+shaft.
+10:32
+Press okay and drag the tensioner up
+10:34
+further if needed.
+10:37
+Edit the constrain components feature in
+10:39
+the timeline and add another constraint.
+10:43
+Select the inside bottom of the screw
+10:46
+hole on the tensioner
+10:48
+and then the top face of the shaft.
+10:52
+The tensioner will snap down into place.
+10:55
+However, it is not yet centered.
+10:59
+Add a final constraint and select the
+11:02
+outside cylindrical face of the
+11:04
+tensioner and the inside cylindrical
+11:06
+face of the spool.
+11:09
+Press okay and then rotate the handle.
+11:14
+The tensioner will rotate with the
+11:15
+spool.
+11:18
+If you want to toggle the visibility of
+11:20
+the joints on or off, you can select the
+11:23
+display settings icon and then object
+11:27
+visibility
+11:28
+joints.
+11:31
+Now when we rotate the joints icons do
+11:34
+not display.
+11:39
+Go to the file menu and select save as
+11:43
+and type in fishing reel assembly to
+11:46
+save this as a new file.
+11:52
+In the next video, we will cover the
+11:54
+data panel and collaboration.

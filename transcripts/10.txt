@@ -1,0 +1,393 @@
+
+0:00
+In this video, the 10th in the getting
+0:02
+started series, we will learn about the
+0:04
+form command to create the handle grip
+0:07
+and learn some additional functionality
+0:09
+such as creating forms,
+0:12
+using symmetry,
+0:15
+fill hole, inserting edges,
+0:18
+editing forms, and extend to adjacent
+0:22
+faces.
+0:25
+The handle grip on our fishing reel has
+0:27
+more of an organic shape to it. And this
+0:30
+is where the form command is really
+0:32
+powerful. Instead of creating complex
+0:35
+surfaces or lofts, it's more like
+0:38
+modeling with clay.
+0:40
+To begin, click the plus icon at the top
+0:44
+to create a new design.
+0:46
+From the create menu, choose create
+0:49
+form.
+0:51
+This will switch the screen to the form
+0:53
+environment and you will notice purple
+0:55
+form commands in the menu.
+0:59
+From the create menu, select cylinder
+1:02
+and then select the side plane in the
+1:05
+viewport.
+1:07
+Click at the 0 0 mark to start the
+1:09
+cylinder. Move your cursor then click
+1:12
+again.
+1:14
+A cylindrical tube will appear along
+1:17
+with the cylinder dialogue box.
+1:20
+In the dialogue box, enter 12 for the
+1:23
+diameter and 20 for the height.
+1:28
+The number of faces created around the
+1:30
+diameter is determined by the diameter
+1:32
+faces setting, while the height faces
+1:35
+setting dictates how many faces define
+1:38
+the height. We will keep these at their
+1:41
+default values.
+1:43
+It's always best practice to use the
+1:45
+fewest possible faces to achieve the
+1:47
+smoothest result. To ensure the grip has
+1:51
+symmetry, change the symmetry option
+1:53
+from none to mirror and enable the
+1:57
+length symmetry.
+2:00
+Green lines will appear along the
+2:02
+length, indicating that any actions
+2:04
+performed above these lines will be
+2:07
+mirrored below them.
+2:09
+Refer to exhibit one.
+2:12
+To prevent the grip from being hollow,
+2:14
+we'll need to patch the cylinder's ends.
+2:18
+First, doubleclick the circular edge at
+2:21
+the cylinder's end to select the entire
+2:24
+edge loop.
+2:26
+Next, go to the modify menu and choose
+2:29
+fill hole.
+2:33
+In the dialogue box, select the fill
+2:36
+hole mode to fill star.
+2:40
+You can toggle through the other modes
+2:42
+to preview them, but return to fill star
+2:45
+and click okay.
+2:49
+Refer to exhibit two.
+2:52
+Repeat the same process on the edge loop
+2:54
+on the other side of the cylinder, but
+2:56
+this time, right mouse click after
+2:58
+selecting the edge loop, and you will
+3:00
+notice the fill hole command in the
+3:02
+right mouse click menu.
+3:05
+The form tool aims for smooth G2
+3:08
+continuous surfaces which explains the
+3:11
+gentle curve from the height edge to the
+3:13
+end face. To achieve a tighter fillet
+3:17
+curve, an additional edge needs to be
+3:19
+inserted.
+3:21
+From the modify menu, select insert
+3:24
+edge.
+3:26
+Then doubleclick the height edge to
+3:28
+select the whole edge loop.
+3:32
+A green preview edge will appear showing
+3:34
+which side the inserted edge will be
+3:36
+created.
+3:38
+Press okay. And notice how the rounded
+3:41
+edge is tighter now compared to the
+3:43
+other end of the cylinder.
+3:46
+To further tighten the radius, we need
+3:48
+to slide the edge to the left.
+3:52
+Doubleclick the edge loop. Then
+3:54
+rightclick and select slide edge.
+4:00
+Drag the slider until the green edge
+4:02
+preview moves to the left and then enter
+4:05
+0.4 in the location field and press
+4:09
+okay.
+4:11
+This will make the left face flatter and
+4:14
+reduces the radius.
+4:17
+Refer to exhibit 3.
+4:20
+Now we want to squish the cylinder down
+4:22
+a little bit to make it less round. To
+4:25
+do this, double click on a face to
+4:27
+select all of the faces of the part.
+4:31
+Right mouse click and select edit form
+4:34
+from the marking menu.
+4:37
+You will see a triad appear with many
+4:40
+icons to select from. They allow you to
+4:43
+move, rotate, and scale.
+4:46
+You can control which transform mode you
+4:49
+want to use by selecting it from the
+4:51
+dialogue menu.
+4:53
+In this case, let's select the scale
+4:56
+transform and you will notice many of
+4:58
+the icons disappear.
+5:02
+Select the horizontal scale bar in the
+5:05
+XZ plane and drag it down to scale the
+5:08
+whole model down in that direction.
+5:12
+Type in 0.7 for the scale factor and
+5:15
+press okay.
+5:17
+To make the grip easier to grip onto, we
+5:20
+want to create an indentation for the
+5:22
+fingers to grab onto.
+5:26
+Select the top two edges using your
+5:28
+control key on a PC or the command key
+5:31
+on a Mac and then rightclick and select
+5:34
+edit form.
+5:37
+You will notice the triad still shows
+5:39
+the scale transform.
+5:42
+Click on the translation option in the
+5:44
+transform mode and drag the up arrow
+5:47
+downward 3 mm.
+5:53
+Now select just the right middle edge
+5:56
+and drag it down another 1 mm and press
+5:59
+okay.
+6:01
+Refer to exhibit 4.
+6:05
+Due to the mirror symmetry we previously
+6:07
+enabled, any modifications made to the
+6:10
+top of the part are also reflected on
+6:12
+the bottom.
+6:14
+Rotate the model to view the back edge
+6:16
+and select the middle right green edge.
+6:21
+Edit the form and translate the edge
+6:24
+outward 3 mm to create a slight bulge
+6:28
+and press okay.
+6:31
+We can now see that the grip is shaped
+6:34
+better for grabbing with your fingers
+6:35
+while winding the reel.
+6:38
+Refer to exhibit five.
+6:41
+We are done shaping the form, but we
+6:43
+need to add some geometry to the end of
+6:45
+the grip. Click on finish form to return
+6:49
+back to the regular modeling commands.
+6:53
+Turn on the origin and create a sketch
+6:55
+on the side plane of the origin.
+7:01
+Draw a 6 mm circle at the origin.
+7:07
+Offset the circle 2 mm inward and then
+7:10
+click finish sketch.
+7:14
+Select the profile, right click and
+7:17
+select extrude from the menu.
+7:21
+Change the extent type to to object and
+7:25
+select one of the faces on the end of
+7:27
+the grip.
+7:29
+An error message appears saying that the
+7:32
+extrude cannot be completed.
+7:35
+This is because the surface is curved
+7:37
+and we need the extrude to extend to all
+7:39
+of the adjacent faces of the single face
+7:42
+that we had selected.
+7:45
+Pick on the two adjacent faces option in
+7:48
+the dialogue and the extrude will now
+7:50
+work correctly.
+7:53
+Refer to exhibit six.
+7:56
+Click on the hole command from the main
+7:58
+menu and then click somewhere on the
+8:00
+flat face of the standoff on the grip.
+8:05
+Turn off the origin and then drag the
+8:08
+blue dot to the white dot in the center
+8:11
+of the circle and the hole will snap
+8:14
+into place.
+8:16
+Change the hole tap type option to
+8:19
+tapped in the dialogue and set the size
+8:22
+to 2 mm
+8:24
+and the length to 6 mm.
+8:28
+This will create a hole the correct
+8:30
+diameter for a tapped 2 mm bolt.
+8:34
+Press okay.
+8:36
+Refer to exhibit 7.
+8:39
+We want to change the appearance of the
+8:41
+grip to be the same as the handle. So go
+8:44
+to the modify menu and then pick
+8:46
+appearance.
+8:48
+In the search window, type in powder
+8:52
+coat black and it will filter out all of
+8:55
+the other appearances and only show the
+8:58
+materials called powder coat black.
+9:02
+Drag the appearance onto the grip.
+9:06
+Click the save icon and save the file as
+9:10
+handle grip.
+9:15
+In the next video, we will learn how to
+9:17
+assemble our components together.

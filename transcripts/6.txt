@@ -1,0 +1,493 @@
+
+0:01
+In this video, the sixth in the getting
+0:03
+started series, we will create the bale
+0:05
+component and learn some additional
+0:07
+functionality such as tangent and equal
+0:10
+constraints, the project command,
+0:14
+offset,
+0:15
+extrude to object, and setting
+0:18
+appearances.
+0:21
+Let's begin by starting a new design.
+0:24
+Either go to the file menu, new design,
+0:27
+or you can click the plus symbol across
+0:29
+the top menu.
+0:32
+Create a new component and name it bale.
+0:37
+Like mentioned before, it is best
+0:39
+practice to create everything as a
+0:41
+component.
+0:43
+We want to start sketching the shape of
+0:45
+the bail on the top plane. So create a
+0:47
+sketch and select the top plane to
+0:50
+reference it.
+0:53
+To create the elliptical bale, use the
+0:55
+ellipse command from the create menu.
+0:59
+Select the 000 point as the center and
+1:02
+enter 60 for the length, ensuring that
+1:05
+the line is horizontal.
+1:08
+Then input 44 mm for the height.
+1:13
+Adjust the dimensions placement as
+1:15
+needed.
+1:17
+From the top edge of the ellipse, draw
+1:19
+two vertical lines down to the bottom
+1:21
+edge.
+1:23
+Fusion automatically creates coincident
+1:25
+constraints because we're clicking on
+1:27
+the ellips's edge. This is visible by
+1:30
+briefly hovering over the line's end
+1:32
+point, which will display the coincident
+1:35
+constraint icon.
+1:39
+Dimension the left line to be 25.5 mm
+1:42
+from the center.
+1:45
+Use the equal constraint to make the
+1:48
+other line equal to the first.
+1:50
+Notice it turns black signifying that it
+1:53
+is fully constrained. It is always
+1:56
+better to use just one dimension instead
+1:58
+of two. That way if you want to change
+2:00
+the distance you only have to edit the
+2:02
+one dimension and the other line will
+2:04
+update also due to the equal constraint.
+2:08
+Refer to exhibit one.
+2:12
+Extrude the middle profile by 7 mm.
+2:17
+To create a circular boss on top of this
+2:19
+part, we can utilize Fusion's quick
+2:21
+primitives instead of a sketch with a
+2:23
+circle.
+2:24
+From the create menu, select cylinder,
+2:28
+then click the top face of the part.
+2:32
+Click the center point, type 32.8 and
+2:35
+press enter. Then input 14 for the
+2:39
+height.
+2:41
+The cylinder primitive will
+2:42
+automatically join our existing part.
+2:45
+Pre-select
+2:47
+the top face, right click, and then
+2:49
+choose create sketch.
+2:52
+We want to offset the edge of the
+2:54
+cylinder, but we always want our offset
+2:56
+to reference the diameter of the
+2:57
+cylinder. This is where the project
+3:00
+command is useful.
+3:02
+Go to create project
+3:06
+or you can use the shortcut key P and
+3:09
+click on the face of the cylinder.
+3:12
+A purple line appears signifying the
+3:14
+face has been projected.
+3:18
+Next, we will utilize the offset command
+3:20
+to move the projected line inward by 1.3
+3:23
+mm.
+3:25
+This ensures the line remains
+3:26
+consistently 1.3 mm from the edge
+3:30
+regardless of any changes to the
+3:31
+cylinder's diameter.
+3:33
+Refer to exhibit two.
+3:37
+Using the pre-selection shortcuts we've
+3:39
+already learned, select the circular
+3:41
+profile and extrude cut down 2.5
+3:44
+millimeters.
+3:48
+Next, we want to create the arms of the
+3:50
+bail. Given their symmetry, we'll draw
+3:53
+one and then mirror it to the other
+3:55
+side.
+3:57
+Start by creating a sketch on the side
+4:00
+face of the bail.
+4:03
+Draw a 15 mm circle off to the side.
+4:07
+We want to draw a line straight down
+4:09
+from the circle, but that's also tangent
+4:11
+to the circle. This is a neat tip.
+4:15
+Click on the line command and then click
+4:18
+and hold on the edge of the circle and
+4:20
+then move the mouse. Notice that the
+4:23
+line is automatically tangent to the
+4:25
+circle.
+4:26
+Move straight down and click. Then move
+4:29
+over past the circle and click again.
+4:32
+and then move back to the circle until
+4:34
+you see the tangent constraint icon
+4:36
+appear.
+4:40
+Dimension the horizontal line to be 21
+4:43
+mm and the circle to be 25 mm up from
+4:46
+that line.
+4:50
+Lastly, use the midpoint constraint to
+4:53
+constrain the horizontal line to the
+4:55
+bottom of the bail.
+4:57
+Refer to exhibit three.
+5:00
+Extrude
+5:05
+join the command into the part 6 mm.
+5:12
+We now want to round some of the edges
+5:14
+using the fillet command.
+5:20
+By clicking the plus icon, we can create
+5:22
+what's called a selection set inside of
+5:25
+the fillet command, which allows us to
+5:27
+select multiple edges and specify
+5:29
+different sizes, but they all exist
+5:32
+under one fillet feature in the
+5:34
+timeline.
+5:36
+Refer to exhibit 4.
+5:40
+We need to remove some material from the
+5:42
+standoff. So, create a sketch on the
+5:44
+side of the standoff.
+5:46
+Draw an 8 mm circle and use the line
+5:49
+command with the tangent trick we just
+5:51
+used earlier to draw a similar shape of
+5:53
+the standoff.
+5:57
+Dimension the center of the circle to be
+5:59
+12 mm up from the bottom.
+6:03
+We want the line to be at the same angle
+6:05
+as the angled line of the standoff. So
+6:07
+we will use the parallel constraint.
+6:11
+Lastly, we will lock down the sketch by
+6:13
+constraining the midpoints of the bottom
+6:15
+lines.
+6:17
+Refer to exhibit 5.
+6:21
+To cut the profile into the standoff
+6:23
+while following the cylinder's curve,
+6:26
+utilize the extrude to object command
+6:28
+with a 4 mm offset.
+6:32
+This will create an extrusion that
+6:34
+conforms to the cylinder shape, but with
+6:37
+the surface set back 4 mm.
+6:42
+Additionally, fill it the bottom edges
+6:44
+by 2 mm.
+6:49
+Using the hole command, create a 4 mm
+6:52
+hole through the center of the standoff.
+6:55
+Click on the face and drag the blue dot
+6:57
+to the upper white dot, which marks the
+7:00
+center of the standoff's radius.
+7:03
+In the dialogue, set the holes diameter
+7:06
+to four millimeters and change the
+7:08
+extents from distance to all.
+7:12
+Refer to exhibit six.
+7:16
+Now that we've finished with the
+7:17
+standoff, we want to mirror all of its
+7:19
+features to the other side of the part.
+7:22
+Use the create mirror command and change
+7:25
+the object type to features.
+7:29
+Then select the two extrude features,
+7:31
+the two fillet features, and the hole
+7:33
+feature from the timeline.
+7:36
+You will notice that they all highlight
+7:37
+blue in the viewport and in the
+7:39
+timeline.
+7:41
+Click on the select next to the mirror
+7:43
+plane and select the side or right
+7:46
+plane. If it's buried in the model, you
+7:49
+can zoom out until you can see the
+7:51
+plane.
+7:53
+Then press okay and see how all the
+7:55
+steps that you completed mirrored over
+7:57
+to the other side.
+8:00
+Refer to exhibit 7.
+8:03
+The bale design is nearly complete with
+8:05
+only a few features remaining to be
+8:07
+added.
+8:09
+On the front plane, create a sketch and
+8:11
+project the entire body to generate a
+8:14
+silhouette of the bail.
+8:19
+Draw a center line vertically through
+8:21
+the model center. Create
+8:25
+a stair step shape with the line command
+8:28
+and add dimensions as indicated in
+8:30
+exhibit 8.
+8:45
+We now want to revolve the profile
+8:47
+around the center line, but it's buried
+8:49
+inside of the body. A neat tip is to
+8:52
+click and hold your left mouse button
+8:53
+for about a second and it probes through
+8:56
+the design and allows you to select the
+8:58
+profile from the list.
+9:01
+Then select the revolve command from the
+9:04
+create menu and click okay.
+9:09
+Fill it the bottom edge of the bail 3
+9:11
+mm.
+9:13
+Because the tangent chain option is
+9:15
+checked, it selects all of the edges at
+9:17
+once instead of having to select them
+9:19
+one by one.
+9:21
+Add a selection set and select the top
+9:24
+edge and set it to be 0.5 mm.
+9:31
+A recess for a washer and the main shaft
+9:33
+is the last feature to add to the bail.
+9:36
+Begin by sketching two concentric
+9:38
+circles on the top face of the boss.
+9:41
+These circles should be 12.2 mm and 6 mm
+9:45
+in diameter, respectively.
+9:49
+Across the insides of each circle, draw
+9:52
+horizontal lines at the top and bottom.
+9:55
+Use the equal constraint for the lines
+9:57
+on the big circle and then again for the
+9:59
+lines on the small circle. Refer to
+10:02
+exhibit 9.
+10:05
+Dimension the larger lines to be 10 mm
+10:07
+apart and the smaller lines to be 4.85
+10:10
+85 mm apart.
+10:14
+Extrude the larger slot profile and all
+10:17
+of the inside profile down minus0.8
+10:21
+mm.
+10:24
+Refer to exhibit 10.
+10:28
+Reactivate the sketch in the browser and
+10:30
+select the inside slot profile and
+10:33
+extrude cut it completely through the
+10:35
+model.
+10:37
+Then deactivate the sketch.
+10:42
+We want the bail to have a red powder
+10:44
+coat appearance. So go to the modify
+10:47
+appearance menu,
+10:50
+then choose paint,
+10:52
+powder coat smooth, then powder coat
+10:55
+red.
+10:57
+If there's a down arrow next to your
+10:59
+material, you will need to click that
+11:00
+first to download it. Then just drag the
+11:04
+material onto the bail.
+11:07
+Refer to exhibit 11.
+11:10
+Save your design and call it bale.
+11:15
+In the next video, we will learn how to
+11:17
+import models into our design and make
+11:19
+direct edits to them.

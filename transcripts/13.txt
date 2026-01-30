@@ -1,0 +1,547 @@
+
+0:00
+In this video, the 13th in the getting
+0:03
+started series, we will learn about
+0:05
+inspecting your design and learn some
+0:07
+additional functionality such as
+0:10
+measure, interference,
+0:13
+section analysis,
+0:15
+center of mass, and mass properties.
+0:20
+The inspect menu in Fusion offers
+0:22
+various tools for model inspection
+0:24
+during the design process.
+0:27
+These tools allow you to measure
+0:29
+distances, check for interferences,
+0:32
+section through assemblies to assess
+0:34
+form, fit, and function, and calculate
+0:37
+total weight.
+0:40
+With the fishing reel assembly open, we
+0:42
+want to take some measurements.
+0:45
+Click on the measure icon above the
+0:47
+inspect menu, then click on the large
+0:50
+cylindrical face of the spool.
+0:53
+The measure dialogue shows the radius
+0:56
+and the diameter of the face that you
+0:58
+selected.
+1:00
+Click on the clear selection arrow to
+1:03
+start a new measurement.
+1:05
+Refer to exhibit one.
+1:09
+If we wanted to find out the width of
+1:11
+the main body of the reel, we can select
+1:13
+the two side faces and it will show the
+1:16
+distance of 16 mm between the two faces.
+1:21
+Clear the selection. and click on the
+1:23
+fillet radius of the spool.
+1:26
+The measure command returns the radius
+1:28
+of the fillet.
+1:31
+Another way to clear the selection is to
+1:33
+just click out in the viewport.
+1:36
+Now click on the cylindrical surface of
+1:39
+one of the holes in the spool. Then
+1:42
+click on the bottom edge of the spool.
+1:44
+The measure dialogue will show the
+1:46
+radius and the diameter of the hole
+1:49
+along with the shortest distance between
+1:51
+the hole and the edge of the spool.
+1:54
+Refer to exhibit two.
+1:57
+If we want to get the measurement from
+1:59
+the center of the hole to the bottom
+2:00
+edge, we will need to turn on the show
+2:03
+snap points option in the dialogue.
+2:08
+Clear the selection and hover over the
+2:11
+cylindrical face of the hole and click.
+2:14
+It will snap to the center point of the
+2:16
+hole.
+2:18
+Now select the bottom edge and the
+2:21
+result will show a distance of 3 mm.
+2:26
+Refer to exhibit 3.
+2:31
+This method also allows for measuring
+2:33
+curved surfaces.
+2:35
+First, clear the current selection.
+2:39
+Then, hover over the top curved edge of
+2:42
+the tensioner and select its midpoint
+2:44
+marker.
+2:47
+Pan down to the bottom of the reel and
+2:50
+select its bottom middle point.
+2:54
+A direct measurement line will appear
+2:56
+between these two points.
+3:01
+Finally, click on the XYZ delta1 icon to
+3:06
+display the Z delta distance, which is a
+3:09
+straight vertical measurement from the
+3:11
+bottom point to the top plane of the top
+3:15
+point.
+3:17
+Refer to exhibit 4.
+3:21
+In Fusion, a handy trick for quick
+3:23
+measurements is to simply click on a
+3:26
+single entity.
+3:28
+The measurement will then appear in the
+3:30
+bottom right corner of your screen.
+3:33
+For instance, clicking on a fillet will
+3:35
+display its radius
+3:38
+and clicking on an edge will show its
+3:40
+length.
+3:42
+To measure distances between faces or
+3:44
+edges, however, you'll need to utilize
+3:46
+the dedicated measure command.
+3:50
+Another helpful tool for inspection is
+3:53
+the interference tool, which highlights
+3:56
+overlapping or interfering parts.
+3:59
+To use it, select interference from the
+4:03
+inspect menu.
+4:05
+Then drag a crossing window from right
+4:09
+to left over the handle and the handle
+4:12
+grip.
+4:15
+Finally, click the compute icon in the
+4:18
+dialogue box.
+4:22
+A table displays two groups with
+4:24
+differing volume results.
+4:27
+The larger volume highlights a screw
+4:29
+with a greater diameter than the hole in
+4:31
+the handle grip, requiring resolution.
+4:36
+The other volume highlights a clashing
+4:38
+filleted edge of the screw with the
+4:41
+sharp edge of the handle's hole, also
+4:44
+needing resolution for a tight fit
+4:46
+against the handle's flat face.
+4:49
+Click okay to close the table. Refer to
+4:53
+exhibit 5.
+4:57
+Double click on the screw in the
+4:59
+viewport and notice it displays the name
+5:01
+in the bottom of the screen. We can see
+5:04
+that it's an M3x16
+5:07
+screw.
+5:09
+Now click the edit and place icon next
+5:13
+to the handle grip component in the
+5:15
+browser.
+5:17
+A blue border will appear around the
+5:19
+viewport signifying that we are in the
+5:22
+edit and place environment.
+5:25
+Edit the whole feature in the timeline
+5:28
+and change the size to 3 mm
+5:32
+and the depth to 9 mm
+5:35
+and press okay.
+5:39
+Then click on finish edit in place at
+5:43
+the top of the viewport to accept the
+5:45
+changes to the model.
+5:47
+Refer to exhibit six.
+5:51
+Turn off the fastener
+5:54
+and then click the edit in place icon
+5:56
+next to handle start.
+6:01
+Add a 0.3 mm chamfer to the edge of the
+6:05
+hole going through the handle.
+6:09
+Press okay and then finish edit in
+6:12
+place.
+6:16
+You will get a warning that the screw
+6:18
+has lost reference with the handle since
+6:20
+we changed the edge it was originally
+6:22
+associated with.
+6:25
+Edit the fastener feature in the
+6:26
+timeline and select the new edge to
+6:30
+reassociate it.
+6:32
+Press okay and notice that the warnings
+6:35
+have been resolved.
+6:38
+Refer to exhibit seven.
+6:43
+After rerunning the interference check,
+6:46
+only one group now shows interference
+6:48
+between the handle and the handle grip.
+6:51
+We resolved the previous small
+6:53
+interference by adding a chamfer to the
+6:55
+handle.
+6:57
+The remaining interference in the handle
+6:59
+grip is expected and valid as the hole
+7:02
+is drilled smaller for tapping which is
+7:05
+typical for a tapped hole size.
+7:08
+The interference inspection successfully
+7:11
+resolved the issues with the handle and
+7:13
+the grip.
+7:17
+The section analysis command found in
+7:20
+the inspect menu is another useful tool
+7:23
+for identifying potential issues.
+7:26
+After selecting the command, click on
+7:29
+the front flat face of the reel to view
+7:32
+a cross-section of the assembly.
+7:36
+The blue arrow allows you to drag and
+7:38
+slice through your design.
+7:43
+Clicking on a cylindrical object will
+7:45
+align the section plane with the center
+7:47
+of that cylinder.
+7:50
+You can also customize the section color
+7:54
+or toggle the hatch visibility.
+8:00
+Press okay to confirm the section view.
+8:04
+Refer to exhibit 8.
+8:08
+Initiate another section analysis.
+8:11
+Selecting the top origin plane.
+8:16
+Drag the blue arrow entirely above the
+8:19
+assembly. Then snap it to the center of
+8:22
+the line roller cylinder.
+8:25
+Upon zooming in, observe flashing and
+8:28
+crisscrossed lines between the screw and
+8:31
+the line roller, visually indicating
+8:34
+interferences.
+8:38
+This confirms the absence of a drilled
+8:40
+hole in the line roller for the screw.
+8:44
+Accept the section view by pressing
+8:46
+okay.
+8:48
+Toggle the screws visibility off by
+8:51
+selecting it and pressing the Vshort
+8:54
+key.
+8:55
+This clearly shows the missing hole in
+8:58
+the line roller.
+9:00
+Press V again to restore the screws
+9:03
+visibility.
+9:05
+Refer to exhibit 9.
+9:09
+An analysis folder now appears in the
+9:11
+browser.
+9:13
+Expanding it reveals our two section
+9:15
+analyses.
+9:18
+Activate section one and observe the
+9:20
+design from the front view on the view
+9:23
+cube.
+9:24
+From this perspective, the spool appears
+9:27
+excessively close to the bail. Its
+9:30
+diameter could be adjusted for a better
+9:32
+fit.
+9:35
+To modify the spool component, click
+9:38
+edit and place in the browser.
+9:42
+Then expand its sketches and enable
+9:45
+sketch one.
+9:48
+The sketches dimensions will become
+9:50
+visible.
+9:52
+If they are not displayed, rightclick
+9:55
+sketch one in the browser and select
+9:57
+show dimensions.
+10:00
+Doubleclick the 38.5 diameter dimension
+10:04
+and change it to 37.5.
+10:08
+Observe
+10:10
+how the model updates and how easily the
+10:13
+result is seen in the section analysis
+10:15
+view.
+10:17
+Finally, click finish edit in place and
+10:21
+disable sketch one.
+10:25
+Refer to exhibit 10.
+10:30
+To determine how well balanced a fishing
+10:33
+reel feels during use, we need to find
+10:36
+the center of mass of the entire
+10:38
+assembly.
+10:40
+From the inspect menu, select center of
+10:43
+mass.
+10:46
+Then in the browser, click on the top
+10:48
+level assembly and press okay.
+10:52
+A center of mass icon will appear in the
+10:55
+viewport.
+10:58
+Viewing the assembly from the top view
+11:00
+by clicking top on the view cube. You
+11:04
+might notice that the center of mass
+11:06
+icon doesn't appear centered within the
+11:08
+reel, which might seem unusual.
+11:12
+This is because the center of mass
+11:14
+calculation accounts for the mass
+11:16
+properties of all of the individual
+11:18
+parts and some of our parts must have
+11:21
+incorrect mass properties.
+11:24
+Refer to exhibit 11.
+11:28
+In the browser, expand handle start.
+11:32
+Right click on handle and select
+11:35
+properties.
+11:37
+Observe that the material is currently
+11:39
+listed as steel, which needs to be
+11:42
+changed to ABS plastic.
+11:45
+Close the properties window.
+11:48
+Next, edit and place the handle start
+11:51
+component.
+11:54
+Navigate to the modify menu and choose
+11:57
+physical material.
+12:00
+Expand the plastic folder and drag ABS
+12:05
+plastic onto the handle.
+12:08
+To refresh the display, turn off and
+12:11
+then turn back on the center of mass
+12:13
+display in the browser.
+12:16
+You should now see that the center of
+12:18
+mass has been updated and is more
+12:20
+centralized.
+12:23
+refer to exhibit 12.
+12:26
+We can also find out how much the whole
+12:28
+assembly weighs by right-clicking on the
+12:30
+fishing reel assembly in the browser and
+12:33
+selecting properties.
+12:37
+It returns a weight of around 265 g.
+12:42
+Let's save our design since we've made
+12:44
+some changes.
+12:46
+Click on the save icon and notice that
+12:49
+it is saving all of the components that
+12:51
+we've made modifications to.
+12:54
+In the next video, we will learn how to
+12:56
+create a drawing set of our fishing reel
+12:59
+design.

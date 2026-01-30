@@ -1,0 +1,491 @@
+
+0:01
+In this video, the seventh in the
+0:03
+getting started series, we will work
+0:05
+with imported geometry and learn some
+0:07
+additional functionality such as
+0:10
+uploading and step files, direct
+0:13
+editing,
+0:15
+rigid groups,
+0:17
+constrain components,
+0:19
+edit in place, and asbuilt joints.
+0:26
+To start out, we need to upload some
+0:28
+files that are linked in exhibit one.
+0:31
+After saving those files locally onto
+0:34
+your computer, navigate to the getting
+0:36
+started series in your data panel in
+0:38
+Fusion and select upload.
+0:43
+Either drag and drop the bale arms file
+0:46
+into the drag and drop area in the
+0:48
+dialogue from a file window or click the
+0:52
+select files button and navigate to
+0:55
+where you saved the downloaded files to
+0:57
+select it.
+1:00
+After that, click the upload button in
+1:02
+the dialogue to complete the upload
+1:04
+process.
+1:06
+Refer to exhibit one.
+1:10
+Repeat the process to upload the real
+1:12
+body step file into the getting started
+1:14
+series project.
+1:18
+In the design process, it is useful to
+1:21
+reuse existing designs that may have
+1:23
+been used in a different product instead
+1:25
+of recreating it. Those designs may have
+1:28
+even come from a different CAD design
+1:30
+tool. With Fusion, you can insert those
+1:33
+other models into your design and even
+1:35
+modify them using direct editing even
+1:38
+though they have no design history
+1:40
+associated with them.
+1:42
+To insert the file into our design,
+1:45
+right click on the bale arms file in the
+1:48
+data panel and select insert into
+1:51
+current design.
+1:54
+Click okay to accept the position.
+1:58
+You will notice that if I drag on some
+2:00
+of the imported components, they move
+2:02
+independently of each other. This is due
+2:05
+to the fact that they are imported
+2:07
+geometry with no history or
+2:09
+relationships.
+2:11
+Because the parts are already positioned
+2:13
+together, we can create a rigid group
+2:16
+and group all of the components
+2:17
+together.
+2:19
+Now, if we move one of the components,
+2:22
+they all move together.
+2:25
+This is a fast method instead of having
+2:27
+to rebuild all of the relationships such
+2:29
+as positioning the screws into the
+2:31
+holes.
+2:34
+To constrain the imported geometry onto
+2:36
+the bail, navigate to the assemble menu,
+2:40
+select constrain components,
+2:44
+and then choose the circular edge of the
+2:46
+bail arm followed by the circular edge
+2:49
+of the hole in the bail.
+2:53
+Now when we drag on the bail arms, they
+2:55
+rotate around the hole because we
+2:57
+constrained the circular edges and their
+2:59
+faces together.
+3:03
+We need to modify the imported design,
+3:06
+specifically removing a hole from the
+3:08
+smaller arm. Directly deleting it is not
+3:11
+possible because the geometry is linked
+3:14
+to the original design as indicated by
+3:16
+the chain link icon in the browser.
+3:20
+To make changes, hover over the bail
+3:23
+arms assembly in the browser and select
+3:26
+edit in place.
+3:28
+This special editing mode allows
+3:30
+modifications to the imported design.
+3:34
+Refer to exhibit 2.
+3:37
+To remove the small hole in the arm,
+3:39
+click it and press delete on your
+3:41
+keyboard.
+3:43
+Next, select the flat face of the small
+3:46
+arm, right click and choose press pull.
+3:51
+Drag the blue arrow to extend the bale
+3:54
+wire arm and enter 2 mm for the
+3:57
+distance.
+3:59
+This method is called direct editing
+4:01
+because you are modifying the model
+4:03
+directly rather than adjusting sketches
+4:06
+or dimensions which are not present in
+4:08
+imported geometry.
+4:11
+Looking at the other arm, we can see
+4:13
+three ridges on the top that we don't
+4:15
+want as part of our design.
+4:18
+Click on one of the ridges and hit
+4:20
+delete.
+4:22
+Fusion heals the underlying geometry
+4:24
+automatically.
+4:27
+Pre-seelelect the other two ribs, right
+4:30
+mouse click and select delete.
+4:33
+Refer to exhibit three.
+4:36
+Rotate to the other side of the line
+4:38
+roller and click on the hole command
+4:41
+from the create menu.
+4:43
+Click on the side of the roller to place
+4:45
+the hole.
+4:48
+Reference the back face of the roller
+4:50
+and enter 2 mm for the distance.
+4:54
+Change the center angle to 45°.
+5:00
+Finally, set the hole diameter to 1.7 mm
+5:04
+and the whole depth to 5 mm and press
+5:07
+okay.
+5:10
+Refer to exhibit 4.
+5:13
+We are done editing our parts. So, click
+5:16
+on finish edit in place across the top
+5:19
+of the viewport.
+5:21
+Open the data panel and insert the real
+5:24
+body into your design.
+5:28
+It will probably come in on top of the
+5:30
+bail, so drag one of the arrows to move
+5:32
+it off to one side.
+5:35
+Close the data panel to give you more
+5:37
+viewport real estate. Again, the parts
+5:40
+come in assembled, but there are no
+5:42
+assembly relationships.
+5:45
+We will use the rigid group command to
+5:47
+group many of the parts together.
+5:49
+However, we will leave out the shaft as
+5:52
+we want it to be able to rotate.
+5:55
+expand. Open the real body assembly and
+5:57
+then the main body subasssembly.
+6:01
+Under the assemble menu, select rigid
+6:04
+group and then select all of the
+6:06
+components except for the shaft.
+6:09
+Refer to exhibit 5.
+6:13
+Since the shaft is already correctly
+6:15
+positioned, we can utilize the asbuilt
+6:18
+joint command.
+6:20
+From the assemble menu, select as built
+6:23
+joint.
+6:25
+Then in the viewport, select both the
+6:28
+shaft and the bearing components.
+6:32
+In the subsequent dialogue, change the
+6:34
+motion type to revolute and then select
+6:37
+a radial edge of the bearing.
+6:40
+This action will cause the shaft to
+6:42
+rotate around the bearing's axis as
+6:45
+demonstrated in the preview.
+6:48
+Refer to exhibit six.
+6:51
+If we try and rotate the shaft, you will
+6:53
+notice that the whole assembly moves as
+6:55
+one. We need to constrain the real body
+6:58
+so it can't move.
+7:01
+Start by turning on the main origin in
+7:03
+the structure browser.
+7:05
+Also, let's turn off the bail and the
+7:08
+bail arms components.
+7:11
+Then click on the constrain components
+7:14
+command from the assemble menu and
+7:17
+select the middle bottom point of the
+7:18
+real body and the 0000 point of the
+7:22
+origin.
+7:25
+Refer to exhibit 7.
+7:28
+When you drag the real component, it
+7:30
+acts like it's on a ball joint because
+7:32
+we only constrained a point to a point.
+7:36
+We need to lock down more degrees of
+7:38
+freedom.
+7:40
+In the timeline, edit the constrain
+7:42
+component feature.
+7:46
+Click the plus symbol to add another
+7:48
+constraint.
+7:50
+Select the side face of the real body
+7:53
+and then the side plane of the origin
+7:56
+and then press okay.
+7:59
+Refer to exhibit 8.
+8:02
+Rotate the assembly again to observe how
+8:04
+this new constraint affects its
+8:06
+movement. It can still rotate forward
+8:09
+and back. So, a final constraint is
+8:11
+needed to lock it down.
+8:14
+Edit the constraint component feature
+8:16
+again and click the plus symbol to add a
+8:18
+third constraint.
+8:20
+Click on the front flat face of the real
+8:23
+body and the front plane of the origin.
+8:27
+Refer to exhibit 9.
+8:30
+Now, when we drag on the reel, you'll
+8:32
+notice it can't move. And if we drag on
+8:34
+the shaft, it rotates due to the asbuilt
+8:38
+joint we created earlier.
+8:41
+Turn the bail and bail arms components
+8:43
+back on in the browser. We want to
+8:46
+position them where they need to go.
+8:48
+However, you will notice there is an
+8:50
+anchor symbol on the bail component.
+8:53
+This means that it is grounded to its
+8:55
+parent, which Fusion does automatically.
+8:58
+For example, if you created a door
+9:00
+component and then created a door knob
+9:03
+component as a child, it would
+9:05
+automatically be grounded to the door
+9:07
+component. That way, if you moved the
+9:10
+door, the door knob would move with it.
+9:13
+You didn't have to create any joint or
+9:15
+constraint relationships.
+9:18
+In this case, we do not want the bail to
+9:20
+be grounded. So, we will rightclick on
+9:22
+it in the browser and select unground
+9:25
+from parent.
+9:28
+Use the constrain components command and
+9:31
+select the bottom circular edge of the
+9:33
+bail and then the bottom circular edge
+9:36
+of the top of the real body and press
+9:39
+okay.
+9:40
+This will create a revolute relation
+9:42
+between the two circular edges.
+9:46
+Refer to exhibit 10.
+9:49
+If we rotate the bail, notice that the
+9:51
+shaft does not rotate with it. That is
+9:54
+because it is part of the reel and not
+9:56
+part of the bail. We want to group them
+9:59
+together. So we will use the rigid group
+10:01
+command again and select the shaft and
+10:05
+the bail.
+10:08
+Now when we rotate the bail, the shaft
+10:10
+rotates with it.
+10:13
+Let's save this assembly as a new
+10:15
+design. Go to the file menu and then
+10:18
+select save as.
+10:21
+A dialogue might appear warning of
+10:23
+unsaved edit in place changes.
+10:26
+That is because we made directedit
+10:28
+modifications to some of the components
+10:30
+and we haven't saved them yet. Go ahead
+10:33
+and press continue.
+10:37
+Type in fishing reel for the file name
+10:40
+and confirm that you are saving in the
+10:42
+getting started series project before
+10:44
+hitting okay.
+10:47
+In the next video, we will use the sweep
+10:49
+command to create the bail wire.

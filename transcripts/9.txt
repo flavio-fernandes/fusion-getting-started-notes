@@ -1,0 +1,429 @@
+
+0:00
+In this video, the ninth in the getting
+0:03
+started series, we will learn about the
+0:05
+loft command and learn some additional
+0:07
+functionality such as shortcut key,
+0:11
+profile direction,
+0:13
+takeoff, weight,
+0:15
+guide, rails,
+0:17
+and timeline marker.
+0:21
+To save some time, some of the
+0:23
+components for this video have already
+0:25
+been created. Start by uploading the
+0:28
+handle start file from exhibit one into
+0:30
+your getting started series project.
+0:34
+Once that is complete, open the handle
+0:36
+start file into fusion.
+0:39
+Refer to exhibit one.
+0:42
+Activate the handle component by
+0:44
+clicking its radio button in the
+0:46
+browser.
+0:48
+We will construct the handle using this
+0:50
+black component as a base.
+0:53
+Right click on the end face and choose
+0:55
+extrude.
+0:58
+Enter 13 mm for the distance.
+1:03
+Rightclick the end face and choose
+1:05
+create sketch.
+1:08
+In the previous video, we covered the
+1:11
+shortcut key P for the project command.
+1:15
+This time, let's explore the shortcuts
+1:17
+dialogue by pressing the S key. A
+1:21
+dialogue will appear allowing you to
+1:23
+search for any command.
+1:25
+For instance, if you anticipate frequent
+1:28
+use of the ellipse command in your
+1:30
+design, begin typing ellipse.
+1:34
+Observe how the command list filters as
+1:37
+you type.
+1:39
+Once you locate ellipse in the filtered
+1:42
+list, navigate to it and press the up
+1:45
+arrow next to it to add it to your
+1:48
+shortcuts dialogue.
+1:50
+Now, whenever you press the S key within
+1:53
+a sketch, the ellipse command will be
+1:56
+available in that dialogue.
+1:59
+You can add any of your preferred
+2:01
+commands into the shortcut dialogue.
+2:04
+Furthermore, each workspace, such as the
+2:07
+sketch, model, and drawing workspaces,
+2:10
+has its own unique shortcut dialogue.
+2:14
+Project the end of the circular handle
+2:16
+component onto the sketch.
+2:19
+Then draw a 9 mm circle below it.
+2:25
+Vertically align this new circle with
+2:27
+the projected circle and dimension it to
+2:31
+be 43 mm below it.
+2:35
+Finally, press finish sketch.
+2:39
+Refer to exhibit 2.
+2:43
+Right click on the circular profile and
+2:45
+choose extrude.
+2:48
+Enter 8 millimeters for the distance,
+2:51
+but we want the extrusion to start
+2:53
+offset from where it currently is.
+2:56
+In the start section of the dialogue,
+2:59
+change the profile plane to offset and
+3:03
+enter 5 mm for the offset distance.
+3:09
+Notice that the extrusion is still 8 mm
+3:11
+long, but offset 5 mm from the sketch
+3:15
+plane.
+3:17
+refer to exhibit three.
+3:20
+The loft command takes one profile and
+3:23
+changes it to another profile along a
+3:25
+path. For example, going from a circle
+3:28
+to a square. To do this, it requires
+3:32
+some sketches for reference.
+3:35
+For our handle, we're going to loft from
+3:37
+a circular profile down to an elliptical
+3:40
+profile.
+3:42
+Let's start by creating the elliptical
+3:44
+profile down on the small cylinder we
+3:47
+just created.
+3:49
+We need to create a sketch that goes
+3:50
+through the center of the cylinder. So
+3:52
+we will use the axis through cylinder
+3:55
+construction command we learned in the
+3:57
+last video.
+4:00
+Then create a plane at angle
+4:03
+construction plane on that axis at 0°.
+4:09
+This plane will serve as the basis for
+4:11
+our sketch.
+4:16
+Project the cylinder body onto the
+4:18
+sketch using the bodies option in the
+4:21
+project menu.
+4:23
+Now use the S shortcut key to bring up
+4:27
+the sketch shortcut menu and you should
+4:29
+see the ellipse command that you added
+4:31
+earlier.
+4:33
+Click on the ellipse command and then
+4:36
+click left of center on the axis line.
+4:40
+Then click on the top edge of the
+4:41
+cylinder. Then enter 3 mm for the width
+4:45
+of the ellipse.
+4:49
+Dimension the ellipse to be 3 mm from
+4:52
+the cylinder's left edge.
+4:55
+The ellipse will appear cyan, indicating
+4:58
+that it's not fully constrained.
+5:01
+To fully constrain it, use the tangent
+5:04
+constraint to make the ellipse tangent
+5:06
+to both the top and the bottom of the
+5:09
+cylinder.
+5:11
+Once fully constrained, click finish
+5:14
+sketch.
+5:16
+Refer to exhibit 4.
+5:19
+To project the circle onto the handle,
+5:22
+rightclick the black circular face and
+5:25
+select create sketch.
+5:28
+Then press P for project. Remember to
+5:32
+change the selection filter back to
+5:34
+specified entities before clicking the
+5:37
+circular face.
+5:40
+Finally, click finish sketch.
+5:44
+We now have sufficient information to
+5:46
+initiate the loft command.
+5:49
+Select loft from the create menu.
+5:53
+First click on the circular profile and
+5:56
+then on the elliptical profile.
+6:00
+A red preview will appear indicating
+6:02
+that it's cutting through our smaller
+6:04
+cylinder.
+6:06
+Change the operation to new body.
+6:11
+Now the loft looks a bit odd as it's
+6:13
+trying to connect the vertical circle to
+6:16
+a horizontal ellipse. In the dialogue,
+6:20
+change the connected next to profile one
+6:23
+to direction.
+6:25
+Also change the connected next to
+6:27
+profile two to direction.
+6:31
+The loft preview updates and we can see
+6:34
+what the handle looks like.
+6:37
+It looks a bit heavy up at profile one.
+6:40
+So, select profile one in the dialogue
+6:43
+and drag the arrow to change the takeoff
+6:45
+weight.
+6:48
+Around 0.5 looks good.
+6:52
+You can type 0.5 into the dialogue for
+6:55
+precise input.
+6:58
+We can see now that the circular profile
+7:00
+extends out a bit before changing down
+7:03
+to the elliptical shape.
+7:06
+Press okay to accept the settings.
+7:09
+refer to exhibit 5.
+7:14
+We created these as separate bodies that
+7:16
+we now want to combine together.
+7:19
+Use the combine command to combine the
+7:21
+handle with the loft and the cylinder.
+7:27
+Add a 0.5 fillet to all of the edges of
+7:30
+the small cylinder.
+7:38
+Then use the hole command to add a 3 mm
+7:42
+hole through the center of the small
+7:44
+cylinder.
+7:46
+Refer to exhibit six.
+7:51
+The loft command also allows you to
+7:53
+define a path for the profiles to
+7:56
+follow. In our example, we did not
+7:59
+specify a path and just had it loft
+8:01
+directly from one profile to the other.
+8:04
+Let's add in a path for the loft to
+8:07
+follow so you can see how this works.
+8:10
+Drag the timeline marker to before the
+8:12
+loft was created as we need the sketch
+8:15
+to be created before the loft was
+8:17
+created.
+8:20
+Turn on sketch 2 and sketch 3 in the
+8:22
+browser as we will need to reference
+8:24
+these to create a new sketch.
+8:28
+In the construct menu, select plane
+8:31
+through three points and click the three
+8:34
+points shown in exhibit 7.
+8:39
+Right click on the plane and select
+8:41
+create sketch.
+8:44
+Project the center point of the vertical
+8:47
+circle and the center point of the
+8:49
+ellipse onto the sketch.
+8:54
+Then draw a simple fit point spline from
+8:58
+the top point down to the bottom point
+9:01
+in the shape of a question mark.
+9:08
+Use the horizontal and vertical
+9:10
+constraint to constrain the green spline
+9:13
+tangent lines to be horizontal at the
+9:16
+top point and vertical at the bottom
+9:19
+point.
+9:21
+refer to exhibit 8.
+9:25
+Move the timeline marker to the end of
+9:27
+the timeline.
+9:29
+Edit the loft feature and in the loft
+9:32
+dialogue, select the center line option
+9:35
+under guide type.
+9:38
+Then click the spline you just created.
+9:42
+Observe how the circular profile now
+9:44
+follows the spline, transforming into an
+9:47
+ellipse by the time it reaches the
+9:49
+bottom.
+9:50
+Press okay.
+9:53
+Refer to exhibit 9.
+9:57
+Turn on sketch 4 in the browser and drag
+10:00
+the spline points around a bit to modify
+10:02
+the spline to see how it affects the
+10:05
+loft.
+10:09
+Click on the undo pull down and select
+10:12
+the roll timeline marker to here next to
+10:16
+the whole feature from the undo list.
+10:22
+Press the save icon to save the design.
+10:26
+In the next video, we will learn how to
+10:28
+use the form tool to create the finger
+10:31
+grip for the handle.

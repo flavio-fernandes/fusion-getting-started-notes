@@ -1,0 +1,277 @@
+
+0:01
+This video, the fifth in the getting
+0:03
+started series, will cover editing
+0:05
+features in the timeline to modify your
+0:07
+design. Topics covered include editing
+0:11
+the timeline, pattern command,
+0:14
+parametric updates, and show dimensions.
+0:20
+As you look at the timeline for the
+0:21
+spool, you will see all of the steps or
+0:23
+features that were used to create the
+0:25
+spool in the order that we created them.
+0:28
+However, it has been determined that we
+0:30
+should add some small ridges to the
+0:32
+spool where the line is wound. That way,
+0:36
+there is more texture for the line to
+0:38
+grip onto.
+0:40
+To do this, we need to go back in time
+0:42
+and edit our sketch that we used to
+0:45
+define the shape of our spool. First,
+0:48
+confirm that the spool component is
+0:50
+currently active. You can tell this by
+0:53
+the radio button next to it in the
+0:55
+browser.
+0:56
+If it is not currently active, right
+0:59
+click on it in the browser and select
+1:01
+activate component.
+1:05
+To edit the first sketch in the
+1:06
+timeline, either doubleclick it or right
+1:09
+click on it and select edit sketch.
+1:13
+This action will display the original
+1:15
+sketch used to create the spools
+1:17
+profile.
+1:20
+Begin by drawing a small 1 millm
+1:22
+diameter circle near the edge where the
+1:24
+fishing line is spooled.
+1:28
+Locate the circle 1 mm down from the
+1:31
+corner and 0.4 mm from the vertical
+1:35
+edge.
+1:38
+Refer to exhibit one.
+1:42
+To duplicate the circle along the
+1:44
+vertical edge, the most straightforward
+1:46
+method is to use a pattern.
+1:49
+Navigate to the create menu and choose
+1:51
+rectangular pattern.
+1:54
+Select the circle as your object and
+1:56
+begin dragging the up or down arrow to
+1:59
+visualize a preview of the pattern.
+2:04
+Input 8.7 mm for the extent distance and
+2:08
+six for the quantity. Then click okay.
+2:12
+You will now see a pattern of six
+2:14
+circles extending down along the spool's
+2:17
+edge within the sketch.
+2:20
+Refer to exhibit two.
+2:24
+You will notice that even though we drew
+2:25
+the circles along the edge, the grooves
+2:28
+do not show up on our 3D model. This is
+2:31
+because we now need to modify the
+2:33
+revolve feature to include the circular
+2:36
+profiles
+2:37
+in the timeline. Edit the revolve
+2:40
+feature.
+2:42
+Examine the circles closely.
+2:45
+You'll observe that the overlapping
+2:47
+segment of the circle with the spool is
+2:49
+blue, indicating that it's selected.
+2:53
+The dialogue box also shows that seven
+2:56
+profiles are currently selected.
+3:00
+To deselect a segment, hold down the
+3:03
+control key on a PC or the command key
+3:06
+on a Mac and click on the small circular
+3:10
+segment. Then release the control key.
+3:14
+You'll see the revolve preview update to
+3:17
+reflect the groove and the number of
+3:19
+selected profiles will decrease from 7
+3:22
+to six.
+3:24
+Refer to exhibit three.
+3:27
+Continue this process. Hold down the
+3:30
+control key, select the next small
+3:32
+circular segment, and repeat until all
+3:35
+small circular segments are selected and
+3:38
+all grooves are visible in the preview.
+3:42
+Refer to exhibit 4.
+3:46
+Finally, press okay to complete editing
+3:49
+the revolve feature.
+3:54
+Parametric modeling offers a significant
+3:56
+advantage. automatic updates to your
+3:58
+model when changes are made. For
+4:01
+instance, since these grooves are
+4:03
+dimensioned relative to the spool's
+4:05
+edge, moving that edge will
+4:07
+automatically reposition the grooves.
+4:10
+Let's explore this functionality.
+4:13
+Edit the first sketch in the timeline
+4:15
+and change the 24 diameter dimension to
+4:18
+20.
+4:20
+Refer to exhibit 5,
+4:23
+then press finish sketch.
+4:27
+Notice the spool diameter is thinner,
+4:29
+yet the grooves are still on the edge.
+4:33
+Now, that was kind of hard to see, so
+4:35
+let me show you a neat tip. First, let's
+4:38
+undo what we just did. Go to the undo
+4:42
+icon at the top and click on the down
+4:44
+arrow next to it and select back to the
+4:47
+undoedit sketch.
+4:50
+This will undo all of the steps back to
+4:53
+and including where we changed the
+4:55
+dimension.
+4:58
+Now expand open the spool component in
+5:01
+the browser and expand open the sketches
+5:03
+folder.
+5:05
+Turn on sketch one by clicking the
+5:07
+eyeball icon next to it. You should now
+5:10
+see the sketch lines and the circles.
+5:14
+Right click on sketch one in the browser
+5:17
+and select show dimension.
+5:20
+refer to exhibit six.
+5:23
+This will turn on all of the dimensions
+5:25
+in the sketch and allow you to edit the
+5:27
+dimensions directly on the 3D model
+5:30
+instead of having to edit the sketch
+5:32
+from the timeline.
+5:35
+Double click on the 24 diameter
+5:37
+dimension and change it to 20. And now
+5:39
+you can see the 3D model update
+5:41
+instantly.
+5:44
+Change the 38.5 diameter dimension to
+5:47
+42. And notice how the spool updates
+5:50
+accordingly.
+5:53
+Click the undo button twice to set the
+5:55
+dimensions back to their original 38.5
+5:58
+and 24.
+6:02
+Press the eyeball icon next to sketch
+6:04
+one to turn off the sketch.
+6:07
+Click the save icon at the top of the
+6:09
+screen to save your changes.
+6:12
+In the next video, we will create the
+6:15
+bale component building on some of the
+6:17
+techniques we have just learned.

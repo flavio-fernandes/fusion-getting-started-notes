@@ -3,39 +3,36 @@
 A searchable, timestamped study guide for a 16-part Autodesk Fusion
 "Getting Started" video series.
 
-This repo is built for fast lookup:
--- find a concept
--- jump to the exact moment in the right video
--- skim definitions in the glossary
--- keep handy reference files alongside the notes
+Start here: **[Fusion_Getting_Started_Study_Guide.md](Fusion_Getting_Started_Study_Guide.md)**
 
-## What is in here
+## Repo layout
 
 - `Fusion_Getting_Started_Study_Guide.md`
   - Master index of all videos
-  - Key moments with timestamp jump links
+  - Timestamped key moments with YouTube jump links
   - Concept index for quick searching
   - Glossary of Fusion jargon
+- `transcripts/`
+  - Plain-text transcripts (`1.txt` .. `16.txt`)
 - `resources/`
-  - Any supporting files referenced by the notes (screenshots, exports, etc)
+  - Reference notes PDFs (present for videos 3-5 and 7-16)
 
-## How to use
+## Quick usage
 
-1) Open `Fusion_Getting_Started_Study_Guide.md`
-2) Use GitHub search (press `/`) and type what you need:
-   - "autoconstrain"
-   - "component"
-   - "sketch dimension"
-   - "project"
-   - "extrude"
-3) Click the timestamp link to jump straight to the right moment in YouTube.
+- Search this repo with GitHub search (press `/`):
+  - "constraint", "dimension", "timeline", "component", "joint"
+  - "extrude", "revolve", "sweep", "loft", "fillet"
+  - "sketch", "project", "offset", "appearance", "interference"
+
+Tip: some terms have multiple spellings in the wild, for example
+"auto constrain" vs "autoconstrain".
 
 ## Contributing
 
 PRs welcome:
 - fix timestamps
 - add missing terms to the glossary
-- add notes for edge cases or common gotchas
+- add notes for common gotchas or Personal vs Commercial differences
 
 ## Disclaimer
 
