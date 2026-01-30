@@ -1,0 +1,186 @@
+- [ ] 20140602 -- Layer by Layer: Making Curved Horns in 123D -- https://youtu.be/GWB8zvPZ1q0
+- [ ] 20141101 -- Make Hollow 3D Printed Models - CADurday -- https://youtu.be/Gn739HGNJuA
+- [ ] 20150115 -- Making Enclosures for 3D Printing - Double Standoffs -- https://youtu.be/3ipzpwMYwwI
+- [ ] 20150122 -- Making Mobile Cases - iPhone 6 Plus Bumper -- https://youtu.be/vfJftWP07OA
+- [ ] 20150129 -- Making Enclosure for PiTFT - Layer By Layer -- https://youtu.be/UQhbbJ9nNho
+- [ ] 20150203 -- Touch Pi 2 - Upgrading Case to Raspberry Pi 2 -- https://youtu.be/iEVwlyrjnBU
+- [ ] 20150211 -- Layer by Layer - Making D-Pad for Game Controller -- https://youtu.be/K9fzKQa8gDE
+- [ ] 20150218 -- Making 3D Text - Layer By Layer -- https://youtu.be/D81ekwieNBk
+- [ ] 20150227 -- Measuring + Ruler Tool - Layer by Layer -- https://youtu.be/YCb1LiFxsbE
+- [ ] 20150305 -- Using Revolve and Vector Artwork - Layer by Layer -- https://youtu.be/Pt5MysddJGI
+- [ ] 20150312 -- Making Replacement Parts with 3D Printing - Layer by Layer -- https://youtu.be/3YYSwxj2wZA
+- [ ] 20150514 -- Pocket PiGRRL Buttons - Layer by Layer -- https://youtu.be/8yo_yOavIkU
+- [ ] 20150519 -- Layer by Layer - Building a D-Pad -- https://youtu.be/ux-OqZVF6RI
+- [ ] 20150623 -- Layer by Layer - 123D to Fusion 360 -- https://youtu.be/j-RyJLSznvc
+- [ ] 20150702 -- Layer by Layer - CAD Versioning -- https://youtu.be/yk1NTCWGsas
+- [ ] 20150730 -- Layer By Layer - SVG units for CAD -- https://youtu.be/A_AP-pCn4tk
+- [ ] 20150806 -- Layer by Layer - Unicorn Dual Extrusion -- https://youtu.be/HUhMtVD3Zjk
+- [ ] 20150813 -- Layer By Layer - Circuit board template for 3D Printing -- https://youtu.be/Ry9nTs-2NHA
+- [ ] 20150820 -- Layer by Layer - D20 Icosahedron Part 01 -- https://youtu.be/H1r0FSia10U
+- [ ] 20150903 -- Layer by Layer - Pan, Orbit and Zoom -- https://youtu.be/ufT73LBtpSg
+- [ ] 20150916 -- Layer by Layer - Sewable Lipo Pocket -- https://youtu.be/7c1vhyLhloQ
+- [ ] 20151119 -- Layer by Layer - Making Fallout 4 Pipboy 3000 MKIV -- https://youtu.be/O1cA9dEN4rs
+- [ ] 20151126 -- Layer by Layer - Designing Raspberry Pi Zero 3D Printed Enclosure -- https://youtu.be/YxBamwc6s7U
+- [ ] 20151201 -- Layer by Layer - 3D Printed Raspberry Pi Zero Case PT II -- https://youtu.be/rnS80vaDuq0
+- [ ] 20151203 -- Layer by Layer - Apple TV Remote Bumper -- https://youtu.be/v5Aab-y6FII
+- [ ] 20151210 -- Layer by Layer - NeoPixel Headphones PT1 -- https://youtu.be/2nmkIkgnY4U
+- [ ] 20151217 -- Layer by Layer - Hoverboard GoPro Mount -- https://youtu.be/iwLYt4014nY
+- [ ] 20151231 -- Layer by Layer - Twist Top Case -- https://youtu.be/uYt9Q5X0t2o
+- [ ] 20160107 -- Layer by Layer - Dual Extrusion Setup -- https://youtu.be/82RkXBzB2Ig
+- [ ] 20160114 -- Layer by Layer - Autodesk Fusion 360 Overview -- https://youtu.be/qIyP2P34Fa4
+- [ ] 20160121 -- Layer by Layer - Case Lips! -- https://youtu.be/LJ73tWlLI-g
+- [ ] 20160128 -- Layer by Layer - Making a D-Pad in Fusion 360 -- https://youtu.be/YQZU0wl19GQ
+- [ ] 20160204 -- Layer by Layer - How To Make Voronoi Patterns in MeshMixer -- https://youtu.be/kh5jKgsEQak
+- [ ] 20160211 -- Layer by Layer - How to make Finger Joints [Parametric] -- https://youtu.be/3GROLEBdmrA
+- [ ] 20160219 -- Layer by Layer LIVE - Raspberry Pi Zero PiGRRL PT1 -- https://youtu.be/7mlMYORIDM8
+- [ ] 20160228 -- Layer by Layer LIVE - PiGRRL Zero Pt 2 @Adafruit #3DPrinting -- https://youtu.be/6iByfb2n57g
+- [ ] 20160305 -- Layer by layer LIVE - EagleCAD to Fusion 360 -- https://youtu.be/QjyWp5BAAVM
+- [ ] 20160314 -- Layer by Layer LIVE - 3D Printed Like Button @adafruit #adafruit -- https://youtu.be/g36BUGMQ4yI
+- [ ] 20160316 -- Layer by Layer LIVE - PiGRRL Zero Pt 3 @Adafruit #3DPrinting -- https://youtu.be/uVGKswaW5OQ
+- [ ] 20160318 -- Layer by Layer LIVE - PiGRRL Zero Pt 4 @adafruit #raspberrypi #3DPrinting -- https://youtu.be/mJoenguxY4A
+- [ ] 20160321 -- Layer by Layer LIVE - Simple Enclosure for Feather Huzzah @adafruit #adafruit -- https://youtu.be/KwK3TnOSWus
+- [ ] 20160327 -- Layer by Layer LIVE - PiGRRL Zero Pt5 @adafruit #adafruit -- https://youtu.be/-kxB4yRuQ4A
+- [ ] 20160406 -- Layer by Layer LIVE PiGRRL Zero Pt 6 Audio @adafruit #adafruit #3DPrinting -- https://youtu.be/ci4jxqdGmKo
+- [ ] 20160411 -- LIVE Layer by Layer PiGRRL Zero Pt 7 -- https://youtu.be/gt5Ho-qfxXw
+- [ ] 20160413 -- Layer by Layer LIVE - Better Snap Fit Cases! @adafruit #adafruit #3DPrinting -- https://youtu.be/pjtiWuGUnlI
+- [ ] 20160420 -- Layer by Layer LIVE - Raspberry Pi Zero Case! @adafruit #raspberrypi #fusion360 -- https://youtu.be/KInzpxk1_Bk
+- [ ] 20160427 -- Layer by Layer LIVE - PiGRRL 2 Update @adafruit -- https://youtu.be/1-QlysquelM
+- [ ] 20160506 -- Layer by Layer LIVE - Raspberry Pi Radio @nprone @adafruit #LayerByLayer -- https://youtu.be/uScSa0hiCsI
+- [ ] 20160507 -- Layer by Layer LIVE - Raspberry Pi Radio PT2 @nprone @adafruit #LayerByLayer -- https://youtu.be/rJyhjbHIZKs
+- [ ] 20160517 -- Layer by Layer - Splitting PiGRRL Zero Parts for smaller bots! -- https://youtu.be/fORA6IFLV9Y
+- [ ] 20160518 -- Layer by Layer - Splitting PiGRRL Zero Parts PT 2 -- https://youtu.be/Xs8Vuu0aBeQ
+- [ ] 20160519 -- Layer by Layer - Splitting PiGRRL Zero Parts PT 3 -- https://youtu.be/x65lkyTXZmY
+- [ ] 20160527 -- Layer by Layer LIVE - Raspberry Pi Radio PT3 -- https://youtu.be/0QuV_1rXGRg
+- [ ] 20160528 -- Layer by Layer LIVE - Using and Making Components in Fusion 360 -- https://youtu.be/w3ftYUt8wqM
+- [ ] 20160625 -- Layer by Layer - Custom Threads for Twist Tops! -- https://youtu.be/UzMJF1qK_rE
+- [ ] 20160716 -- Layer by Layer - Using Parameters to make Wearables with Circuit Playground -- https://youtu.be/mUCx9MsDHjM
+- [ ] 20160801 -- How to CNC - Milling a Pokeball Logo in Acrylic #Othermill #Fusion360 -- https://youtu.be/vGfav6Do248
+- [ ] 20160805 -- How to CNC – Cutting Faceplates in Acrylic #Othermill #Fusion360 -- https://youtu.be/d0MjEw3xt1g
+- [ ] 20160810 -- How to CNC – Facing Material for Machining #CNC #Othermill #Fusion360 -- https://youtu.be/3kFeurVuuOk
+- [ ] 20160821 -- Layer by Layer - Shell Thickness -- https://youtu.be/bawcuvd9Hd0
+- [ ] 20160828 -- Layer by Layer - Using Coils for Threads -- https://youtu.be/1Cw-Rzm_AhE
+- [ ] 20160902 -- Layer by Layer - Unicorn Horn in Fusion 360 -- https://youtu.be/hUAc6cVm2uQ
+- [ ] 20160908 -- Layer by Layer - Direct Manipulation -- https://youtu.be/uzbj-P1bGxY
+- [ ] 20160922 -- Layer by Layer - Wireframe Icosahedron -- https://youtu.be/xj2yxGZM42I
+- [ ] 20160929 -- Layer by Layer - Top 3 Features in Fusion 360 -- https://youtu.be/01NCQBt5yzo
+- [ ] 20161011 -- Layer by Layer LIVE - Adaptive Modeling -- https://youtu.be/_zN2DPhmZEM
+- [ ] 20161124 -- Layer by Layer - Adaptive Cases with Capture Position and Projected Sketches -- https://youtu.be/tWzIoA58OUM
+- [ ] 20161214 -- Layer by Layer – Brick Texture (Cylindrical) -- https://youtu.be/FG5WGxxUMrw
+- [ ] 20161217 -- Layer by Layer – Cherry MX Gamepad in Eagle CAD -- https://youtu.be/s3TRig9bmjo
+- [ ] 20161218 -- Layer by Layer – Cherry MX Keycaps -- https://youtu.be/JVUZnU3jQ-s
+- [ ] 20170111 -- Layer by Layer – Using Forms in Fusion 360 -- https://youtu.be/ZorJ5DlHxJ4
+- [ ] 20170117 -- Layer by Layer – Using Parameters with Patterns -- https://youtu.be/wI3l7KxpsZ0
+- [ ] 20170125 -- Layer by Layer – EagleCAD to Fusion 360 with Circuit Playground Express -- https://youtu.be/MnIc9eZzDrA
+- [ ] 20170130 -- Layer by Layer – Circuit Playground Express Enclosure @adafruit #adafruit -- https://youtu.be/qA0n_c9_234
+- [ ] 20170201 -- Layer by Layer – Mini Spy Cam Enclosure @adafruit #adafruit -- https://youtu.be/nk4mgITryCo
+- [ ] 20170203 -- Layer by Layer – Mini Spy Cam Case PT 2 -- https://youtu.be/b8XiPBUP1Kg
+- [ ] 20170208 -- Layer by Layer – Using Pattern on Path -- https://youtu.be/Hm03Ju1ljic
+- [ ] 20170226 -- Layer by Layer – Parametric Wrist Bands #Fusion360 #CAD -- https://youtu.be/vn9U4dPN4BI
+- [ ] 20170307 -- Layer by Layer – Feather Box @adafruit #adafruit -- https://youtu.be/wocx7jqunzQ
+- [ ] 20170308 -- Layer by Layer – Feather Box Part 2 -- https://youtu.be/I70360dVXe8
+- [ ] 20170314 -- Layer by Layer – Feather Box Part 3 -- https://youtu.be/V8bCpCotjO4
+- [ ] 20170401 -- Layer by Layer – Adaptive Parametric Features -- https://youtu.be/dhMnX2LUnZo
+- [ ] 20170413 -- Layer by Layer – VESA Mounting Tabs -- https://youtu.be/5XJk-ElYOkE
+- [ ] 20170421 -- Layer by Layer – Adafruit Joy Bonnet for Raspberry Pi -- https://youtu.be/JYl7Kj3W24Y
+- [ ] 20170427 -- Layer by Layer – Joy Bonnet Case PT 2 -- https://youtu.be/KwEox82rl_M
+- [ ] 20170504 -- Fusion 360 Tutorial – Joy Bonnet Pi 3 -- https://youtu.be/0JxVoYYy1Xo
+- [ ] 20170608 -- Layer by Layer – Parametric Arcade Button Box -- https://youtu.be/Zn1pGBm67wo
+- [ ] 20170616 -- Fusion 360 Tutorial – Arcade Button Box Part 2 -- https://youtu.be/y3ZJngKbcc4
+- [ ] 20170629 -- Fusion 360 Tutorial – Making Boomy The Boombox -- https://youtu.be/U2_m4vRaRPk
+- [ ] 20170705 -- Fusion 360 Tutorial – Circuit Playground Lantern -- https://youtu.be/i9dXG3nyapg
+- [ ] 20170711 -- Fusion 360 Tutorial – Skateboard Deck -- https://youtu.be/5gdMls4W16c
+- [ ] 20170727 -- Fusion 360 Tutorial – Parametric Laser Cut Boxes -- https://youtu.be/n0mxwChyHGc
+- [ ] 20170809 -- Fusion 360 Tutorial – Using Splines -- https://youtu.be/FLqpKDWZp-4
+- [ ] 20170814 -- Fusion 360 Tutorial – Eagle CAD Integration (Preview) -- https://youtu.be/Q3utR0RfsaM
+- [ ] 20170901 -- Fusion 360 Tutorial – Engraving Acrylic with CAM -- https://youtu.be/C6sVQKgQ7WE
+- [ ] 20170926 -- Inspecting Parts in Eagle – Layer by Layer -- https://youtu.be/VfyzJXDpCm8
+- [ ] 20171113 -- Fusion 360 Tutorial – Explosion Animations -- https://youtu.be/MrIEddahJM8
+- [ ] 20171117 -- Fusion 360 Tutorial – Using McMaster-Carr Hardware -- https://youtu.be/ccDCHDljiyU
+- [ ] 20171120 -- Fusion 360 Tutorial – Creating Wires for Components -- https://youtu.be/5x08j2GguhI
+- [ ] 20171130 -- Fusion 360 Tutorial – Parametric LED Strips -- https://youtu.be/kS1KkH5HS6c
+- [ ] 20171228 -- Fusion 360 Tutorial – Modifying Sketches (For Beginners) -- https://youtu.be/KxlDsMQG7y4
+- [ ] 20180115 -- Fusion 360 Tutorial – Easy Snap Fit Cases! -- https://youtu.be/VVmOtM60VWw
+- [ ] 20180123 -- Fusion 360 Tutorial – Learning 3D Sketches -- https://youtu.be/_CDcBN146EQ
+- [ ] 20180202 -- Fusion 360 Tutorial – Circular SnapFit Cases! -- https://youtu.be/iF_P5ie_b8o
+- [ ] 20180209 -- Fusion 360 Tutorial – Easy Dial Knob -- https://youtu.be/x-mSZzQc2pU
+- [ ] 20180219 -- Fusion 360 Tutorial – Exploding GIF Animations -- https://youtu.be/gUdK8f09mgU
+- [ ] 20180309 -- Fusion 360 Tutorial – Joints for Parametric Modeling -- https://youtu.be/KknqV54lmXY
+- [ ] 20180319 -- Fusion 360 Tutorial – Parametric Lego Parts -- https://youtu.be/y_MnXyXx-_8
+- [ ] 20180329 -- Fusion 360 Tutorial – Master Assemblies -- https://youtu.be/cyENSmCRxLQ
+- [ ] 20180517 -- Fusion 360 Tutorial – Foldable Boxes -- https://youtu.be/kMjmMJSLYhk
+- [ ] 20180605 -- Layer by Layer – Setting Up Vectors for Cutting Machines -- https://youtu.be/0OPTZhK0HHY
+- [ ] 20180823 -- Fusion 360 Tutorial – Exporting Projects -- https://youtu.be/Khn96FmWt_w
+- [ ] 20180904 -- Fusion 360 Tutorial – Turn Eagle PCBs into 3D Models with Fusion 360 -- https://youtu.be/S8U09Pj1m6M
+- [ ] 20181101 -- LightSaber CAD Overview – Fusion 360 -- https://youtu.be/ELMuPK1Gqg4
+- [ ] 20181113 -- Cutting Corners – Fusion 360 Tutorial -- https://youtu.be/i5RnwXEpfM8
+- [ ] 20181127 -- Fusion 360 Tutorial – Trellis M4 Flexible Bumper -- https://youtu.be/e6y2Ii8gU-I
+- [ ] 20181221 -- Fusion 360 Tutorial – CPX Mount @adafruit #3DPrinting -- https://youtu.be/spzZRyIX6Ic
+- [ ] 20190117 -- Fusion 360 Tutorial: Poly Cube Build - Layer by Layer #3DPrinting #3DHangouts @adafruit #adafruit -- https://youtu.be/x2O-yca4eGw
+- [ ] 20190124 -- Fusion 360 Tutorial – Print-In-Place Hinge – Layer by Layer -- https://youtu.be/M6AqZDajXHM
+- [ ] 20190127 -- Fusion 360 Tutorial – Eagle PCB Joints -- https://youtu.be/4J8xGisAgUc
+- [ ] 20190210 -- Fusion 360 Tutorial – Parametric Angles -- https://youtu.be/B9O-rSiAJk0
+- [ ] 20190218 -- Fusion 360 Tutorial – Animate PCBs -- https://youtu.be/5Nh3Tudt-Fk
+- [ ] 20190224 -- Fusion 360 Tutorial – Surface Mazes -- https://youtu.be/m7yLsWhgTrk
+- [ ] 20190314 -- Eagle Tutorial – PCB Silkscreen Layers -- https://youtu.be/B35UU3ubsC4
+- [ ] 20190325 -- Fusion 360 Tutorial – Wall Plate for PyPortal -- https://youtu.be/u8zgyGtmWek
+- [ ] 20190412 -- Fusion 360 Tutorial – Knurling #3DPrinting -- https://youtu.be/YSPfoBWR6lw
+- [ ] 20190420 -- Fusion 360 Tutorial – Screw Threaded Parts -- https://youtu.be/Hhkrg3WYH1g
+- [ ] 20190428 -- Layer by Layer – SpaceMouse First Look -- https://youtu.be/1xoEKTCjVE8
+- [ ] 20190512 -- Layer By Layer – Heat Set Press Assembly -- https://youtu.be/Yrz57TUeFzI
+- [ ] 20190519 -- Layer by Layer – PyBadge Snapfit Case Pt 1 -- https://youtu.be/C-31tlBQtuc
+- [ ] 20190519 -- Layer by Layer – PyBadge Snapfit Case Pt 2 -- https://youtu.be/NVSQzi-dQMk
+- [ ] 20190519 -- Layer by Layer – PyBadge Snapfit Case Pt 3 -- https://youtu.be/pfBXfgCTmAU
+- [ ] 20190527 -- Layer by Layer – Weekly Ep 1 -- https://youtu.be/FwS9bWHr9FQ
+- [ ] 20190603 -- Layer by Layer Weekly Ep 2 -- https://youtu.be/cuvZnqAyEBM
+- [ ] 20190806 -- Fusion 360 Tutorial – Snap Fit Circular PCBs -- https://youtu.be/GlMo6IWF6CY
+- [ ] 20190913 -- Fusion 360 Tutorial – Glasses Frame -- https://youtu.be/WhCU0aMwBrg
+- [ ] 20190916 -- Fusion 360 Tutorial – Twisty Unicorn Horns! -- https://youtu.be/w6afPYUpqXA
+- [ ] 20200109 -- Fusion 360 Tutorial – Snap Fit Cylinders and Spheres #3DPrinting -- https://youtu.be/51pnOzYpGCA
+- [ ] 20200322 -- How to Design Face Shield Fusion 360 -- https://youtu.be/BYPWB5-auQE
+- [ ] 20200331 -- Fusion 360 Tutorial – MX MIDI Guitar -- https://youtu.be/FQWXE8LRQzE
+- [ ] 20200515 -- Fusion 360 Tutorial – PCB Mounting Plates -- https://youtu.be/QYcDccHG0F4
+- [ ] 20200529 -- Fusion 360 Tutorial – Sketches and Joints -- https://youtu.be/kxHhZCgyzsg
+- [ ] 20200625 -- Fusion 360 Tutorial – PyPortal Guitar Tuner -- https://youtu.be/lxHRu3iCVZM
+- [ ] 20200712 -- Fusion 360 Tutorial – Circular Snap Fit Case -- https://youtu.be/DIPY3ePSQNQ
+- [ ] 20200723 -- Fusion 360 – Using Package Generator for PCBs #adafruit -- https://youtu.be/uygVegKuBdw
+- [ ] 20200801 -- Fusion 360 Tutorial – NeoPixel Ring Grid Diffuser -- https://youtu.be/FA7a-n7o_Mg
+- [ ] 20200807 -- Fusion 360 Tutorial – Emboss is BOSS! -- https://youtu.be/aAjhTFxi2_w
+- [ ] 20200903 -- Fusion 360 Tutorial – Align and Capture Screws -- https://youtu.be/90DJF4QmdyY
+- [ ] 20200910 -- Fusion 360 Tutorial – Servo Wings -- https://youtu.be/6ylii_L5YRU
+- [ ] 20201002 -- Fusion 360 Tutorial – Draft for Support Free 3D Prints -- https://youtu.be/t12j273c7qY
+- [ ] 20201013 -- Fusion 360 Tutorial – Sketching with Constraints -- https://youtu.be/IES56h0WANI
+- [ ] 20201024 -- Layer by Layer – Diffusion with Black LED Acrylic -- https://youtu.be/q843wYVHOYo
+- [ ] 20201026 -- Layer by Layer – PMS Air Quality Sensors -- https://youtu.be/UlRyUzP55ts
+- [ ] 20201110 -- Layer by Layer – Arrange Woodworking Projects -- https://youtu.be/Wf2QveNyFpg
+- [ ] 20201117 -- Layer by Layer – Silo House – IOT Air Quality Monitor #adafruit -- https://youtu.be/Rfd4IyahZg0
+- [ ] 20201127 -- Layer by Layer – Stand for MagTag -- https://youtu.be/8Pe2b1AIdaw
+- [ ] 20201201 -- Layer by Layer – Outdoor LED Sign -- https://youtu.be/xCwAXL_CacY
+- [ ] 20201221 -- Layer by Layer – NeoPixel Strip Holders -- https://youtu.be/Bd6fBF1atVA
+- [ ] 20210120 -- Layer by Layer – Darksaber CAD Walkthrough #Fusion360 #3DPrinting #Mandolorian -- https://youtu.be/pvBuuFpGia0
+- [ ] 20210120 -- Layer by Layer – Darksaber Splitting Parts #Fusion360 #3DPrinting #Mandolorian -- https://youtu.be/Lq42Rst9hRk
+- [ ] 20210215 -- Fusion 360 Tutorial – Print In Place Handle – Layer by Layer -- https://youtu.be/MjNaRfypjwE
+- [ ] 20210302 -- Layer by Layer – Engraving Patterns – Fusion 360 Tutorial -- https://youtu.be/lJWWwv_iXwI
+- [ ] 20210316 -- Fusion 360 Tutorial – Panel Mounting External Parts – Layer by Layer -- https://youtu.be/SAW89g5WZL4
+- [ ] 20210401 -- Layer by Layer – Plate for CYBERDECK – Fusion 360 Tutorial -- https://youtu.be/_pcAFG48Lc0
+- [ ] 20210426 -- Layer by Layer – Fuzzy Skin for Practical Prints in CURA -- https://youtu.be/89oRp64lFfU
+- [ ] 20210502 -- Layer by Layer – Ideation of a Lemon -- https://youtu.be/5ZEGOkDrX_E
+- [ ] 20210513 -- Layer by Layer – Brick Texture with Emboss – Fusion 360 -- https://youtu.be/xIbLGCbViHY
+- [ ] 20210607 -- Layer by Layer – CNC Milling Key Caps -- https://youtu.be/fBpIwxwFgG4
+- [ ] 20210621 -- Layer by Layer – Symmetrical Splines in Fusion 360 -- https://youtu.be/_jblwhxdDAM
+- [ ] 20210701 -- Fusion 360 Tutorial – Layer by Layer – Sweeping Snap Fits -- https://youtu.be/9o3ySuWTZkc
+- [ ] 20210923 -- Fusion 360 Tutorial – Slide Switch Holders for Enclosures -- https://youtu.be/VB9ks3N9030
+- [ ] 20211028 -- Layer by Layer – PCB Holders for Props #Fusion360 #3DPrinting #Adafruit -- https://youtu.be/JODOi9XkdSY
+- [ ] 20220120 -- Fusion 360 Tutorial – Layer by Layer – Tusken Raider Prop -- https://youtu.be/N-fySk2hSvk
+- [ ] 20220207 -- Fusion 360 Tutorial – Layer by Layer – QT Py Snap Fit Case -- https://youtu.be/iXZvdST_OSs
+- [ ] 20220221 -- Fusion 360 Layer by Layer – Zoetrope CAD -- https://youtu.be/7ayS3IR4zlI
+- [ ] 20220314 -- Layer by Layer – Fusion 360 – Etch Sketch Snap Fit Case -- https://youtu.be/YPtBLRRF5BM
+- [ ] 20220324 -- Layer by Layer – Snap Fit Emeralds – Fusion 360 -- https://youtu.be/S-uFwjj4MeM
+- [ ] 20220520 -- Layer by Layer – Generating Headers for PCBs – Fusion 360 -- https://youtu.be/m1fdYjTCLF0
+- [ ] 20220629 -- Layer by Layer – Locknuts for Enclosures – Fusion 360 Tutorial -- https://youtu.be/hlFlwrMGpf4
+- [ ] 20220903 -- Layer by Layer – Kumiko Inspired CNC Engraving #fusion360 #kumiko -- https://youtu.be/R2hvhfYb53k
+- [ ] 20221006 -- Fusion 360 Tutorial – LED Noodle Shapes -- https://youtu.be/XwwmBp9V06E
+- [ ] 20221013 -- Layer by Layer – Making and Breaking Constraints – Fusion 360 Tutorial -- https://youtu.be/ra8xMxH7EjA
+- [ ] 20221027 -- Layer by Layer - Neon LED Signs – Fusion 360 Turorial -- https://youtu.be/vSoq3YqZpBA
+- [ ] 20221128 -- Layer by Layer – Quick Tip: How to apply multiple Appearances -- https://youtu.be/R2WRuoSsljA
+- [ ] 20230525 -- Layer by Layer – Snap Fit Case with Live Hinges -- https://youtu.be/8zwEyZs0kdE
+- [ ] 20250911 -- Fusion 360 - Seamless Emboss Patterns -- https://youtu.be/KDd5GdHhM48
